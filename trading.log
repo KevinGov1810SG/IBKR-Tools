@@ -1,0 +1,990 @@
+2026-03-28 00:05:17.328 | INFO     | __main__:start:117 - ============================================================
+2026-03-28 00:05:17.328 | INFO     | __main__:start:118 -   IBKR Algorithmic Trading System — Starting
+2026-03-28 00:05:17.329 | INFO     | __main__:start:119 - ============================================================
+2026-03-28 00:05:20.380 | WARNING  | core.broker:error:48 - IBKR error reqId=-1 code=502: Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket EClients" 
+is enabled and connection port is the same as "Socket Port" on the 
+TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: 
+TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations 
+of version 954.1 or newer:  TWS: 7497; IB Gateway: 4002
+2026-03-28 00:12:26.135 | INFO     | __main__:start:117 - ============================================================
+2026-03-28 00:12:26.136 | INFO     | __main__:start:118 -   IBKR Algorithmic Trading System — Starting
+2026-03-28 00:12:26.136 | INFO     | __main__:start:119 - ============================================================
+2026-03-28 00:12:29.191 | WARNING  | core.broker:error:48 - IBKR error reqId=-1 code=502: Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket EClients" 
+is enabled and connection port is the same as "Socket Port" on the 
+TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: 
+TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations 
+of version 954.1 or newer:  TWS: 7497; IB Gateway: 4002
+2026-03-28 00:15:36.605 | INFO     | __main__:start:117 - ============================================================
+2026-03-28 00:15:36.605 | INFO     | __main__:start:118 -   IBKR Algorithmic Trading System — Starting
+2026-03-28 00:15:36.605 | INFO     | __main__:start:119 - ============================================================
+2026-03-28 00:15:39.661 | WARNING  | core.broker:error:48 - IBKR error reqId=-1 code=502: Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket EClients" 
+is enabled and connection port is the same as "Socket Port" on the 
+TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: 
+TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations 
+of version 954.1 or newer:  TWS: 7497; IB Gateway: 4002
+2026-03-28 00:32:03.798 | INFO     | __main__:start:117 - ============================================================
+2026-03-28 00:32:03.798 | INFO     | __main__:start:118 -   IBKR Algorithmic Trading System — Starting
+2026-03-28 00:32:03.798 | INFO     | __main__:start:119 - ============================================================
+2026-03-28 00:32:03.869 | INFO     | core.broker:nextValidId:40 - Connected to IBKR — next valid order ID: 1
+2026-03-28 00:32:03.870 | DEBUG    | core.broker:error:46 - IBKR info 2104: La connexion de données de marché est OK:usfarm.nj
+2026-03-28 00:32:03.871 | DEBUG    | core.broker:error:46 - IBKR info 2104: La connexion de données de marché est OK:usfuture
+2026-03-28 00:32:03.871 | DEBUG    | core.broker:error:46 - IBKR info 2104: La connexion de données de marché est OK:cashfarm
+2026-03-28 00:32:03.871 | DEBUG    | core.broker:error:46 - IBKR info 2104: La connexion de données de marché est OK:usopt.nj
+2026-03-28 00:32:03.871 | DEBUG    | core.broker:error:46 - IBKR info 2104: La connexion de données de marché est OK:eufarmnj
+2026-03-28 00:32:03.871 | DEBUG    | core.broker:error:46 - IBKR info 2104: La connexion de données de marché est OK:usfarm
+2026-03-28 00:32:03.871 | DEBUG    | core.broker:error:46 - IBKR info 2106: La connexion de données HMDS est OK:ushmds
+2026-03-28 00:32:03.871 | DEBUG    | core.broker:error:46 - IBKR info 2158: La connexion de la batterie de serveurs Sec-def est OK:secdefil
+2026-03-28 00:32:03.870 | INFO     | core.broker:connect:156 - IBKR Broker connected successfully
+2026-03-28 00:32:03.872 | INFO     | core.data_feed:subscribe:79 - Subscribed to real-time data for AAPL
+2026-03-28 00:32:03.872 | INFO     | core.data_feed:subscribe:79 - Subscribed to real-time data for TSLA
+2026-03-28 00:32:03.872 | INFO     | core.data_feed:subscribe:79 - Subscribed to real-time data for SPY
+2026-03-28 00:32:03.872 | INFO     | core.data_feed:subscribe:79 - Subscribed to real-time data for QQQ
+2026-03-28 00:32:03.873 | INFO     | core.data_feed:subscribe:79 - Subscribed to real-time data for EUR
+2026-03-28 00:32:03.873 | INFO     | core.data_feed:subscribe:79 - Subscribed to real-time data for GBP
+2026-03-28 00:32:03.873 | INFO     | core.data_feed:subscribe:79 - Subscribed to real-time data for ES
+2026-03-28 00:32:03.873 | INFO     | core.data_feed:subscribe:79 - Subscribed to real-time data for NQ
+2026-03-28 00:32:03.873 | INFO     | core.data_feed:subscribe:79 - Subscribed to real-time data for GC
+2026-03-28 00:32:03.873 | INFO     | __main__:_fetch_all_historical:385 - Fetching historical data for all assets…
+2026-03-28 00:32:03.883 | DEBUG    | core.broker:accountDownloadEnd:105 - Account download complete: DUP591504
+2026-03-28 00:32:04.098 | WARNING  | core.broker:error:48 - IBKR error reqId=1001 code=10089: Les données de marché demandées nécessitent une souscription supplémentaire pour les connexions API. Pour plus de détails, veuillez consulter le lien de la boître de dialogue « Connexions aux données de marché ».AAPL NASDAQ.NMS/TOP/ALL
+2026-03-28 00:32:04.480 | WARNING  | core.broker:error:48 - IBKR error reqId=1005 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:32:04.495 | WARNING  | core.broker:error:48 - IBKR error reqId=1002 code=10089: Les données de marché demandées nécessitent une souscription supplémentaire pour les connexions API. Pour plus de détails, veuillez consulter le lien de la boître de dialogue « Connexions aux données de marché ».Des données de marché en différé sont disponibles.TSLA NASDAQ.NMS/TOP/ALL
+2026-03-28 00:32:04.497 | WARNING  | core.broker:error:48 - IBKR error reqId=1003 code=10089: Les données de marché demandées nécessitent une souscription supplémentaire pour les connexions API. Pour plus de détails, veuillez consulter le lien de la boître de dialogue « Connexions aux données de marché ».Des données de marché en différé sont disponibles.SPY ARCA/TOP/ALL
+2026-03-28 00:32:04.573 | WARNING  | core.broker:error:48 - IBKR error reqId=1007 code=321: Erreur de validation de la demande.-'bM' : cause - Please enter a local symbol or an expiry
+2026-03-28 00:32:04.580 | WARNING  | core.broker:error:48 - IBKR error reqId=1006 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:32:04.672 | WARNING  | core.broker:error:48 - IBKR error reqId=1008 code=321: Erreur de validation de la demande.-'bM' : cause - Please enter a local symbol or an expiry
+2026-03-28 00:32:04.699 | WARNING  | core.broker:error:48 - IBKR error reqId=1004 code=10089: Les données de marché demandées nécessitent une souscription supplémentaire pour les connexions API. Pour plus de détails, veuillez consulter le lien de la boître de dialogue « Connexions aux données de marché ».Des données de marché en différé sont disponibles.QQQ NASDAQ.NMS/TOP/ALL
+2026-03-28 00:32:04.773 | WARNING  | core.broker:error:48 - IBKR error reqId=1009 code=321: Erreur de validation de la demande.-'bM' : cause - Please enter a local symbol or an expiry
+2026-03-28 00:32:05.336 | DEBUG    | core.broker:historicalDataEnd:64 - Historical data complete for reqId=1010
+2026-03-28 00:32:05.351 | DEBUG    | core.data_feed:fetch_historical:51 - Fetched 156 bars for AAPL (5 mins)
+2026-03-28 00:32:06.197 | DEBUG    | core.broker:historicalDataEnd:64 - Historical data complete for reqId=1011
+2026-03-28 00:32:06.200 | DEBUG    | core.data_feed:fetch_historical:51 - Fetched 156 bars for TSLA (5 mins)
+2026-03-28 00:32:07.144 | DEBUG    | core.broker:historicalDataEnd:64 - Historical data complete for reqId=1012
+2026-03-28 00:32:07.147 | DEBUG    | core.data_feed:fetch_historical:51 - Fetched 156 bars for SPY (5 mins)
+2026-03-28 00:32:08.089 | DEBUG    | core.broker:historicalDataEnd:64 - Historical data complete for reqId=1013
+2026-03-28 00:32:08.093 | DEBUG    | core.data_feed:fetch_historical:51 - Fetched 156 bars for QQQ (5 mins)
+2026-03-28 00:32:08.710 | WARNING  | core.broker:error:48 - IBKR error reqId=1014 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:32:38.606 | ERROR    | core.broker:get_historical_data:187 - Timeout fetching historical data for EUR
+2026-03-28 00:32:38.606 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for EUR
+2026-03-28 00:32:39.240 | WARNING  | core.broker:error:48 - IBKR error reqId=1015 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:33:09.134 | ERROR    | core.broker:get_historical_data:187 - Timeout fetching historical data for GBP
+2026-03-28 00:33:09.135 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for GBP
+2026-03-28 00:33:09.652 | WARNING  | core.broker:error:48 - IBKR error reqId=1016 code=321: Erreur de validation de la demande.-'bI' : cause - Please enter a local symbol or an expiry
+2026-03-28 00:33:39.658 | ERROR    | core.broker:get_historical_data:187 - Timeout fetching historical data for ES
+2026-03-28 00:33:39.658 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for ES
+2026-03-28 00:33:40.164 | WARNING  | core.broker:error:48 - IBKR error reqId=1017 code=321: Erreur de validation de la demande.-'bI' : cause - Please enter a local symbol or an expiry
+2026-03-28 00:34:10.163 | ERROR    | core.broker:get_historical_data:187 - Timeout fetching historical data for NQ
+2026-03-28 00:34:10.163 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for NQ
+2026-03-28 00:34:10.680 | WARNING  | core.broker:error:48 - IBKR error reqId=1018 code=321: Erreur de validation de la demande.-'bI' : cause - Please enter a local symbol or an expiry
+2026-03-28 00:34:40.688 | ERROR    | core.broker:get_historical_data:187 - Timeout fetching historical data for GC
+2026-03-28 00:34:40.688 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for GC
+2026-03-28 00:34:41.200 | INFO     | __main__:start:135 - System initialised — entering main loop
+2026-03-28 00:34:41.201 | DEBUG    | __main__:_main_loop:162 - --- Cycle 1 ---
+2026-03-28 00:34:41.201 | INFO     | __main__:_fetch_all_historical:385 - Fetching historical data for all assets…
+2026-03-28 00:34:41.437 | DEBUG    | core.broker:historicalDataEnd:64 - Historical data complete for reqId=1019
+2026-03-28 00:34:41.441 | DEBUG    | core.data_feed:fetch_historical:51 - Fetched 156 bars for AAPL (5 mins)
+2026-03-28 00:34:42.165 | DEBUG    | core.broker:historicalDataEnd:64 - Historical data complete for reqId=1020
+2026-03-28 00:34:42.170 | DEBUG    | core.data_feed:fetch_historical:51 - Fetched 156 bars for TSLA (5 mins)
+2026-03-28 00:34:42.907 | DEBUG    | core.broker:historicalDataEnd:64 - Historical data complete for reqId=1021
+2026-03-28 00:34:42.911 | DEBUG    | core.data_feed:fetch_historical:51 - Fetched 156 bars for SPY (5 mins)
+2026-03-28 00:34:43.648 | DEBUG    | core.broker:historicalDataEnd:64 - Historical data complete for reqId=1022
+2026-03-28 00:34:43.652 | DEBUG    | core.data_feed:fetch_historical:51 - Fetched 156 bars for QQQ (5 mins)
+2026-03-28 00:34:44.268 | WARNING  | core.broker:error:48 - IBKR error reqId=1023 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:35:14.171 | ERROR    | core.broker:get_historical_data:187 - Timeout fetching historical data for EUR
+2026-03-28 00:35:14.171 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for EUR
+2026-03-28 00:35:14.788 | WARNING  | core.broker:error:48 - IBKR error reqId=1024 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:35:44.697 | ERROR    | core.broker:get_historical_data:187 - Timeout fetching historical data for GBP
+2026-03-28 00:35:44.698 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for GBP
+2026-03-28 00:35:45.201 | WARNING  | core.broker:error:48 - IBKR error reqId=1025 code=321: Erreur de validation de la demande.-'bI' : cause - Please enter a local symbol or an expiry
+2026-03-28 00:36:15.214 | ERROR    | core.broker:get_historical_data:187 - Timeout fetching historical data for ES
+2026-03-28 00:36:15.215 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for ES
+2026-03-28 00:36:15.728 | WARNING  | core.broker:error:48 - IBKR error reqId=1026 code=321: Erreur de validation de la demande.-'bI' : cause - Please enter a local symbol or an expiry
+2026-03-28 00:36:19.255 | INFO     | __main__:_shutdown:444 - Received signal 2 — shutting down…
+2026-03-28 00:36:40.998 | INFO     | __main__:start:117 - ============================================================
+2026-03-28 00:36:40.998 | INFO     | __main__:start:118 -   IBKR Algorithmic Trading System — Starting
+2026-03-28 00:36:40.998 | INFO     | __main__:start:119 - ============================================================
+2026-03-28 00:36:41.012 | INFO     | core.broker:nextValidId:40 - Connected to IBKR — next valid order ID: 1
+2026-03-28 00:36:41.013 | DEBUG    | core.broker:error:46 - IBKR info 2104: La connexion de données de marché est OK:usfarm.nj
+2026-03-28 00:36:41.013 | DEBUG    | core.broker:error:46 - IBKR info 2104: La connexion de données de marché est OK:usfuture
+2026-03-28 00:36:41.013 | DEBUG    | core.broker:error:46 - IBKR info 2104: La connexion de données de marché est OK:cashfarm
+2026-03-28 00:36:41.013 | DEBUG    | core.broker:error:46 - IBKR info 2104: La connexion de données de marché est OK:usopt.nj
+2026-03-28 00:36:41.013 | DEBUG    | core.broker:error:46 - IBKR info 2104: La connexion de données de marché est OK:eufarmnj
+2026-03-28 00:36:41.013 | DEBUG    | core.broker:error:46 - IBKR info 2104: La connexion de données de marché est OK:usfarm
+2026-03-28 00:36:41.013 | DEBUG    | core.broker:error:46 - IBKR info 2106: La connexion de données HMDS est OK:ushmds
+2026-03-28 00:36:41.013 | DEBUG    | core.broker:error:46 - IBKR info 2158: La connexion de la batterie de serveurs Sec-def est OK:secdefil
+2026-03-28 00:36:41.013 | INFO     | core.broker:connect:161 - Market data type set to 3 (1=live, 3=delayed)
+2026-03-28 00:36:41.014 | INFO     | core.broker:connect:163 - IBKR Broker connected successfully
+2026-03-28 00:36:41.014 | INFO     | core.data_feed:subscribe:79 - Subscribed to real-time data for AAPL
+2026-03-28 00:36:41.014 | INFO     | core.data_feed:subscribe:79 - Subscribed to real-time data for TSLA
+2026-03-28 00:36:41.014 | INFO     | core.data_feed:subscribe:79 - Subscribed to real-time data for SPY
+2026-03-28 00:36:41.015 | INFO     | core.data_feed:subscribe:79 - Subscribed to real-time data for QQQ
+2026-03-28 00:36:41.015 | INFO     | core.data_feed:subscribe:79 - Subscribed to real-time data for EUR
+2026-03-28 00:36:41.015 | INFO     | core.data_feed:subscribe:79 - Subscribed to real-time data for GBP
+2026-03-28 00:36:41.015 | INFO     | core.data_feed:subscribe:79 - Subscribed to real-time data for ES
+2026-03-28 00:36:41.015 | INFO     | core.data_feed:subscribe:79 - Subscribed to real-time data for NQ
+2026-03-28 00:36:41.015 | INFO     | core.data_feed:subscribe:79 - Subscribed to real-time data for GC
+2026-03-28 00:36:41.016 | INFO     | __main__:_fetch_all_historical:385 - Fetching historical data for all assets…
+2026-03-28 00:36:41.018 | DEBUG    | core.broker:accountDownloadEnd:105 - Account download complete: DUP591504
+2026-03-28 00:36:41.218 | WARNING  | core.broker:error:48 - IBKR error reqId=1001 code=10089: Les données de marché demandées nécessitent une souscription supplémentaire pour les connexions API. Pour plus de détails, veuillez consulter le lien de la boître de dialogue « Connexions aux données de marché ».AAPL NASDAQ.NMS/TOP/ALL
+2026-03-28 00:36:41.574 | WARNING  | core.broker:error:48 - IBKR error reqId=1002 code=10167: Pas d'abonnement aux données de marché demandées. Les données de marché en différé sont affichées...
+2026-03-28 00:36:41.577 | WARNING  | core.broker:error:48 - IBKR error reqId=1003 code=10167: Pas d'abonnement aux données de marché demandées. Les données de marché en différé sont affichées...
+2026-03-28 00:36:41.615 | WARNING  | core.broker:error:48 - IBKR error reqId=1005 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:36:41.714 | WARNING  | core.broker:error:48 - IBKR error reqId=1007 code=321: Erreur de validation de la demande.-'bM' : cause - Please enter a local symbol or an expiry
+2026-03-28 00:36:41.715 | WARNING  | core.broker:error:48 - IBKR error reqId=1006 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:36:41.814 | WARNING  | core.broker:error:48 - IBKR error reqId=1008 code=321: Erreur de validation de la demande.-'bM' : cause - Please enter a local symbol or an expiry
+2026-03-28 00:36:41.914 | WARNING  | core.broker:error:48 - IBKR error reqId=1009 code=321: Erreur de validation de la demande.-'bM' : cause - Please enter a local symbol or an expiry
+2026-03-28 00:36:42.243 | DEBUG    | core.broker:historicalDataEnd:64 - Historical data complete for reqId=1010
+2026-03-28 00:36:42.248 | DEBUG    | core.data_feed:fetch_historical:51 - Fetched 156 bars for AAPL (5 mins)
+2026-03-28 00:36:42.969 | DEBUG    | core.broker:historicalDataEnd:64 - Historical data complete for reqId=1011
+2026-03-28 00:36:42.973 | DEBUG    | core.data_feed:fetch_historical:51 - Fetched 156 bars for TSLA (5 mins)
+2026-03-28 00:36:43.713 | DEBUG    | core.broker:historicalDataEnd:64 - Historical data complete for reqId=1012
+2026-03-28 00:36:43.716 | DEBUG    | core.data_feed:fetch_historical:51 - Fetched 156 bars for SPY (5 mins)
+2026-03-28 00:36:44.459 | DEBUG    | core.broker:historicalDataEnd:64 - Historical data complete for reqId=1013
+2026-03-28 00:36:44.463 | DEBUG    | core.data_feed:fetch_historical:51 - Fetched 156 bars for QQQ (5 mins)
+2026-03-28 00:36:45.074 | WARNING  | core.broker:error:48 - IBKR error reqId=1014 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:37:14.982 | ERROR    | core.broker:get_historical_data:194 - Timeout fetching historical data for EUR
+2026-03-28 00:37:14.982 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for EUR
+2026-03-28 00:37:15.598 | WARNING  | core.broker:error:48 - IBKR error reqId=1015 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:37:45.498 | ERROR    | core.broker:get_historical_data:194 - Timeout fetching historical data for GBP
+2026-03-28 00:37:45.498 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for GBP
+2026-03-28 00:37:46.001 | WARNING  | core.broker:error:48 - IBKR error reqId=1016 code=321: Erreur de validation de la demande.-'bI' : cause - Please enter a local symbol or an expiry
+2026-03-28 00:38:16.014 | ERROR    | core.broker:get_historical_data:194 - Timeout fetching historical data for ES
+2026-03-28 00:38:16.014 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for ES
+2026-03-28 00:38:16.527 | WARNING  | core.broker:error:48 - IBKR error reqId=1017 code=321: Erreur de validation de la demande.-'bI' : cause - Please enter a local symbol or an expiry
+2026-03-28 00:38:46.529 | ERROR    | core.broker:get_historical_data:194 - Timeout fetching historical data for NQ
+2026-03-28 00:38:46.530 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for NQ
+2026-03-28 00:38:47.042 | WARNING  | core.broker:error:48 - IBKR error reqId=1018 code=321: Erreur de validation de la demande.-'bI' : cause - Please enter a local symbol or an expiry
+2026-03-28 00:38:47.161 | DEBUG    | core.broker:error:46 - IBKR info 2106: La connexion de données HMDS est OK:euhmds
+2026-03-28 00:39:17.042 | ERROR    | core.broker:get_historical_data:194 - Timeout fetching historical data for GC
+2026-03-28 00:39:17.043 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for GC
+2026-03-28 00:39:17.554 | INFO     | __main__:start:135 - System initialised — entering main loop
+2026-03-28 00:39:17.554 | DEBUG    | __main__:_main_loop:162 - --- Cycle 1 ---
+2026-03-28 00:39:17.554 | INFO     | __main__:_fetch_all_historical:385 - Fetching historical data for all assets…
+2026-03-28 00:39:17.782 | DEBUG    | core.broker:historicalDataEnd:64 - Historical data complete for reqId=1019
+2026-03-28 00:39:17.786 | DEBUG    | core.data_feed:fetch_historical:51 - Fetched 156 bars for AAPL (5 mins)
+2026-03-28 00:39:18.516 | DEBUG    | core.broker:historicalDataEnd:64 - Historical data complete for reqId=1020
+2026-03-28 00:39:18.521 | DEBUG    | core.data_feed:fetch_historical:51 - Fetched 156 bars for TSLA (5 mins)
+2026-03-28 00:39:19.260 | DEBUG    | core.broker:historicalDataEnd:64 - Historical data complete for reqId=1021
+2026-03-28 00:39:19.263 | DEBUG    | core.data_feed:fetch_historical:51 - Fetched 156 bars for SPY (5 mins)
+2026-03-28 00:39:20.003 | DEBUG    | core.broker:historicalDataEnd:64 - Historical data complete for reqId=1022
+2026-03-28 00:39:20.007 | DEBUG    | core.data_feed:fetch_historical:51 - Fetched 156 bars for QQQ (5 mins)
+2026-03-28 00:39:20.617 | WARNING  | core.broker:error:48 - IBKR error reqId=1023 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:39:50.524 | ERROR    | core.broker:get_historical_data:194 - Timeout fetching historical data for EUR
+2026-03-28 00:39:50.525 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for EUR
+2026-03-28 00:39:51.136 | WARNING  | core.broker:error:48 - IBKR error reqId=1024 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:39:58.562 | DEBUG    | core.broker:error:46 - IBKR info 2104: La connexion de données de marché est OK:usopt
+2026-03-28 00:40:00.353 | DEBUG    | core.broker:error:46 - IBKR info 2104: La connexion de données de marché est OK:jfarm
+2026-03-28 00:40:11.272 | INFO     | __main__:_shutdown:444 - Received signal 2 — shutting down…
+2026-03-28 00:40:21.046 | ERROR    | core.broker:get_historical_data:194 - Timeout fetching historical data for GBP
+2026-03-28 00:40:21.047 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for GBP
+2026-03-28 00:40:21.563 | WARNING  | core.broker:error:48 - IBKR error reqId=1025 code=321: Erreur de validation de la demande.-'bI' : cause - Please enter a local symbol or an expiry
+2026-03-28 00:40:51.565 | ERROR    | core.broker:get_historical_data:194 - Timeout fetching historical data for ES
+2026-03-28 00:40:51.565 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for ES
+2026-03-28 00:40:52.081 | WARNING  | core.broker:error:48 - IBKR error reqId=1026 code=321: Erreur de validation de la demande.-'bI' : cause - Please enter a local symbol or an expiry
+2026-03-28 00:41:06.671 | INFO     | __main__:start:117 - ============================================================
+2026-03-28 00:41:06.672 | INFO     | __main__:start:118 -   IBKR Algorithmic Trading System — Starting
+2026-03-28 00:41:06.672 | INFO     | __main__:start:119 - ============================================================
+2026-03-28 00:41:06.684 | INFO     | core.broker:nextValidId:40 - Connected to IBKR — next valid order ID: 1
+2026-03-28 00:41:06.684 | DEBUG    | core.broker:error:47 - IBKR info 2104: La connexion de données de marché est OK:usfarm.nj
+2026-03-28 00:41:06.684 | DEBUG    | core.broker:error:47 - IBKR info 2104: La connexion de données de marché est OK:jfarm
+2026-03-28 00:41:06.684 | DEBUG    | core.broker:error:47 - IBKR info 2104: La connexion de données de marché est OK:usfuture
+2026-03-28 00:41:06.685 | DEBUG    | core.broker:error:47 - IBKR info 2104: La connexion de données de marché est OK:cashfarm
+2026-03-28 00:41:06.685 | DEBUG    | core.broker:error:47 - IBKR info 2104: La connexion de données de marché est OK:usopt.nj
+2026-03-28 00:41:06.685 | DEBUG    | core.broker:error:47 - IBKR info 2104: La connexion de données de marché est OK:usopt
+2026-03-28 00:41:06.685 | DEBUG    | core.broker:error:47 - IBKR info 2104: La connexion de données de marché est OK:eufarmnj
+2026-03-28 00:41:06.685 | DEBUG    | core.broker:error:47 - IBKR info 2104: La connexion de données de marché est OK:usfarm
+2026-03-28 00:41:06.685 | DEBUG    | core.broker:error:47 - IBKR info 2106: La connexion de données HMDS est OK:euhmds
+2026-03-28 00:41:06.685 | DEBUG    | core.broker:error:47 - IBKR info 2106: La connexion de données HMDS est OK:ushmds
+2026-03-28 00:41:06.685 | DEBUG    | core.broker:error:47 - IBKR info 2158: La connexion de la batterie de serveurs Sec-def est OK:secdefil
+2026-03-28 00:41:06.684 | INFO     | core.broker:connect:170 - Market data type set to 3 (1=live, 3=delayed)
+2026-03-28 00:41:06.685 | INFO     | core.broker:connect:172 - IBKR Broker connected successfully
+2026-03-28 00:41:06.685 | INFO     | core.data_feed:subscribe:79 - Subscribed to real-time data for AAPL
+2026-03-28 00:41:06.686 | INFO     | core.data_feed:subscribe:79 - Subscribed to real-time data for TSLA
+2026-03-28 00:41:06.686 | INFO     | core.data_feed:subscribe:79 - Subscribed to real-time data for SPY
+2026-03-28 00:41:06.686 | INFO     | core.data_feed:subscribe:79 - Subscribed to real-time data for QQQ
+2026-03-28 00:41:06.686 | INFO     | core.data_feed:subscribe:79 - Subscribed to real-time data for EUR
+2026-03-28 00:41:06.686 | INFO     | core.data_feed:subscribe:79 - Subscribed to real-time data for GBP
+2026-03-28 00:41:06.687 | INFO     | core.data_feed:subscribe:79 - Subscribed to real-time data for ES
+2026-03-28 00:41:06.687 | INFO     | core.data_feed:subscribe:79 - Subscribed to real-time data for NQ
+2026-03-28 00:41:06.687 | INFO     | core.data_feed:subscribe:79 - Subscribed to real-time data for GC
+2026-03-28 00:41:06.687 | INFO     | __main__:_fetch_all_historical:385 - Fetching historical data for all assets…
+2026-03-28 00:41:06.690 | DEBUG    | core.broker:accountDownloadEnd:112 - Account download complete: DUP591504
+2026-03-28 00:41:07.251 | INFO     | core.broker:error:50 - IBKR market data notice reqId=1001 code=10167: Pas d'abonnement aux données de marché demandées. Les données de marché en différé sont affichées...
+2026-03-28 00:41:07.252 | INFO     | core.broker:error:50 - IBKR market data notice reqId=1002 code=10167: Pas d'abonnement aux données de marché demandées. Les données de marché en différé sont affichées...
+2026-03-28 00:41:07.269 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1005 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:41:07.371 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1006 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:41:07.468 | WARNING  | core.broker:error:55 - IBKR error reqId=1007 code=200: Aucune définition de titre trouvée pour cette requête
+2026-03-28 00:41:07.502 | INFO     | core.broker:error:50 - IBKR market data notice reqId=1003 code=10167: Pas d'abonnement aux données de marché demandées. Les données de marché en différé sont affichées...
+2026-03-28 00:41:07.502 | INFO     | core.broker:error:50 - IBKR market data notice reqId=1004 code=10167: Pas d'abonnement aux données de marché demandées. Les données de marché en différé sont affichées...
+2026-03-28 00:41:07.567 | WARNING  | core.broker:error:55 - IBKR error reqId=1008 code=200: Aucune définition de titre trouvée pour cette requête
+2026-03-28 00:41:07.854 | INFO     | core.broker:error:50 - IBKR market data notice reqId=1009 code=10167: Pas d'abonnement aux données de marché demandées. Les données de marché en différé sont affichées...
+2026-03-28 00:41:07.888 | DEBUG    | core.broker:historicalDataEnd:71 - Historical data complete for reqId=1010
+2026-03-28 00:41:07.894 | DEBUG    | core.data_feed:fetch_historical:51 - Fetched 156 bars for AAPL (5 mins)
+2026-03-28 00:41:08.619 | DEBUG    | core.broker:historicalDataEnd:71 - Historical data complete for reqId=1011
+2026-03-28 00:41:08.622 | DEBUG    | core.data_feed:fetch_historical:51 - Fetched 156 bars for TSLA (5 mins)
+2026-03-28 00:41:09.363 | DEBUG    | core.broker:historicalDataEnd:71 - Historical data complete for reqId=1012
+2026-03-28 00:41:09.367 | DEBUG    | core.data_feed:fetch_historical:51 - Fetched 156 bars for SPY (5 mins)
+2026-03-28 00:41:10.102 | DEBUG    | core.broker:historicalDataEnd:71 - Historical data complete for reqId=1013
+2026-03-28 00:41:10.106 | DEBUG    | core.data_feed:fetch_historical:51 - Fetched 156 bars for QQQ (5 mins)
+2026-03-28 00:41:10.709 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1014 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:41:40.607 | ERROR    | core.broker:get_historical_data:203 - Timeout fetching historical data for EUR
+2026-03-28 00:41:40.607 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for EUR
+2026-03-28 00:41:41.223 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1015 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:42:11.130 | ERROR    | core.broker:get_historical_data:203 - Timeout fetching historical data for GBP
+2026-03-28 00:42:11.130 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for GBP
+2026-03-28 00:42:11.748 | WARNING  | core.broker:error:55 - IBKR error reqId=1016 code=200: Aucune définition de titre trouvée pour cette requête
+2026-03-28 00:42:41.656 | ERROR    | core.broker:get_historical_data:203 - Timeout fetching historical data for ES
+2026-03-28 00:42:41.656 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for ES
+2026-03-28 00:42:42.272 | WARNING  | core.broker:error:55 - IBKR error reqId=1017 code=200: Aucune définition de titre trouvée pour cette requête
+2026-03-28 00:43:12.174 | ERROR    | core.broker:get_historical_data:203 - Timeout fetching historical data for NQ
+2026-03-28 00:43:12.175 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for NQ
+2026-03-28 00:43:12.912 | DEBUG    | core.broker:historicalDataEnd:71 - Historical data complete for reqId=1018
+2026-03-28 00:43:12.915 | DEBUG    | core.data_feed:fetch_historical:51 - Fetched 180 bars for GC (5 mins)
+2026-03-28 00:43:13.423 | INFO     | __main__:start:135 - System initialised — entering main loop
+2026-03-28 00:43:13.424 | DEBUG    | __main__:_main_loop:162 - --- Cycle 1 ---
+2026-03-28 00:43:13.424 | INFO     | __main__:_fetch_all_historical:385 - Fetching historical data for all assets…
+2026-03-28 00:43:13.653 | DEBUG    | core.broker:historicalDataEnd:71 - Historical data complete for reqId=1019
+2026-03-28 00:43:13.657 | DEBUG    | core.data_feed:fetch_historical:51 - Fetched 156 bars for AAPL (5 mins)
+2026-03-28 00:43:14.388 | DEBUG    | core.broker:historicalDataEnd:71 - Historical data complete for reqId=1020
+2026-03-28 00:43:14.393 | DEBUG    | core.data_feed:fetch_historical:51 - Fetched 156 bars for TSLA (5 mins)
+2026-03-28 00:43:15.137 | DEBUG    | core.broker:historicalDataEnd:71 - Historical data complete for reqId=1021
+2026-03-28 00:43:15.141 | DEBUG    | core.data_feed:fetch_historical:51 - Fetched 156 bars for SPY (5 mins)
+2026-03-28 00:43:15.875 | DEBUG    | core.broker:historicalDataEnd:71 - Historical data complete for reqId=1022
+2026-03-28 00:43:15.879 | DEBUG    | core.data_feed:fetch_historical:51 - Fetched 156 bars for QQQ (5 mins)
+2026-03-28 00:43:16.490 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1023 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:43:42.405 | WARNING  | core.broker:error:55 - IBKR error reqId=-1 code=2108: La connexion de données de marché est inactive mais disponible sur demande.jfarm
+2026-03-28 00:43:42.406 | WARNING  | core.broker:error:55 - IBKR error reqId=-1 code=2108: La connexion de données de marché est inactive mais disponible sur demande.jfarm
+2026-03-28 00:43:42.406 | WARNING  | core.broker:error:55 - IBKR error reqId=-1 code=2108: La connexion de données de marché est inactive mais disponible sur demande.cashfarm
+2026-03-28 00:43:42.407 | WARNING  | core.broker:error:55 - IBKR error reqId=-1 code=2108: La connexion de données de marché est inactive mais disponible sur demande.cashfarm
+2026-03-28 00:43:42.408 | WARNING  | core.broker:error:55 - IBKR error reqId=-1 code=2108: La connexion de données de marché est inactive mais disponible sur demande.usopt
+2026-03-28 00:43:42.408 | WARNING  | core.broker:error:55 - IBKR error reqId=-1 code=2108: La connexion de données de marché est inactive mais disponible sur demande.usopt
+2026-03-28 00:43:42.408 | WARNING  | core.broker:error:55 - IBKR error reqId=-1 code=2108: La connexion de données de marché est inactive mais disponible sur demande.eufarmnj
+2026-03-28 00:43:42.409 | WARNING  | core.broker:error:55 - IBKR error reqId=-1 code=2108: La connexion de données de marché est inactive mais disponible sur demande.eufarmnj
+2026-03-28 00:43:46.383 | ERROR    | core.broker:get_historical_data:203 - Timeout fetching historical data for EUR
+2026-03-28 00:43:46.383 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for EUR
+2026-03-28 00:43:47.007 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1024 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:44:16.899 | ERROR    | core.broker:get_historical_data:203 - Timeout fetching historical data for GBP
+2026-03-28 00:44:16.899 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for GBP
+2026-03-28 00:44:17.503 | WARNING  | core.broker:error:55 - IBKR error reqId=1025 code=200: Aucune définition de titre trouvée pour cette requête
+2026-03-28 00:44:55.164 | INFO     | __main__:start:117 - ============================================================
+2026-03-28 00:44:55.165 | INFO     | __main__:start:118 -   IBKR Algorithmic Trading System — Starting
+2026-03-28 00:44:55.165 | INFO     | __main__:start:119 - ============================================================
+2026-03-28 00:44:55.179 | INFO     | core.broker:nextValidId:40 - Connected to IBKR — next valid order ID: 1
+2026-03-28 00:44:55.179 | DEBUG    | core.broker:error:47 - IBKR info 2104: La connexion de données de marché est OK:usfarm.nj
+2026-03-28 00:44:55.179 | DEBUG    | core.broker:error:47 - IBKR info 2104: La connexion de données de marché est OK:usfuture
+2026-03-28 00:44:55.179 | DEBUG    | core.broker:error:47 - IBKR info 2104: La connexion de données de marché est OK:usopt.nj
+2026-03-28 00:44:55.179 | DEBUG    | core.broker:error:47 - IBKR info 2104: La connexion de données de marché est OK:usfarm
+2026-03-28 00:44:55.180 | DEBUG    | core.broker:error:47 - IBKR info 2106: La connexion de données HMDS est OK:euhmds
+2026-03-28 00:44:55.180 | DEBUG    | core.broker:error:47 - IBKR info 2106: La connexion de données HMDS est OK:ushmds
+2026-03-28 00:44:55.180 | DEBUG    | core.broker:error:47 - IBKR info 2158: La connexion de la batterie de serveurs Sec-def est OK:secdefil
+2026-03-28 00:44:55.179 | INFO     | core.broker:connect:170 - Market data type set to 3 (1=live, 3=delayed)
+2026-03-28 00:44:55.180 | INFO     | core.broker:connect:172 - IBKR Broker connected successfully
+2026-03-28 00:44:55.180 | INFO     | core.data_feed:subscribe:81 - Subscribed to real-time data for BTC
+2026-03-28 00:44:55.180 | INFO     | core.data_feed:subscribe:81 - Subscribed to real-time data for ETH
+2026-03-28 00:44:55.181 | INFO     | core.data_feed:subscribe:81 - Subscribed to real-time data for LTC
+2026-03-28 00:44:55.181 | INFO     | core.data_feed:subscribe:81 - Subscribed to real-time data for BCH
+2026-03-28 00:44:55.181 | INFO     | __main__:_fetch_all_historical:385 - Fetching historical data for all assets…
+2026-03-28 00:44:55.184 | DEBUG    | core.broker:accountDownloadEnd:112 - Account download complete: DUP591504
+2026-03-28 00:44:55.385 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1001 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:44:55.499 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1002 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:44:55.603 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1003 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:44:55.705 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1004 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:44:55.803 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1005 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:45:25.182 | ERROR    | core.broker:get_historical_data:203 - Timeout fetching historical data for BTC
+2026-03-28 00:45:25.183 | WARNING  | core.data_feed:fetch_historical:43 - No historical data for BTC
+2026-03-28 00:45:25.800 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1006 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:45:55.707 | ERROR    | core.broker:get_historical_data:203 - Timeout fetching historical data for ETH
+2026-03-28 00:45:55.707 | WARNING  | core.data_feed:fetch_historical:43 - No historical data for ETH
+2026-03-28 00:45:56.323 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1007 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:46:26.224 | ERROR    | core.broker:get_historical_data:203 - Timeout fetching historical data for LTC
+2026-03-28 00:46:26.225 | WARNING  | core.data_feed:fetch_historical:43 - No historical data for LTC
+2026-03-28 00:46:26.841 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1008 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:46:56.748 | ERROR    | core.broker:get_historical_data:203 - Timeout fetching historical data for BCH
+2026-03-28 00:46:56.748 | WARNING  | core.data_feed:fetch_historical:43 - No historical data for BCH
+2026-03-28 00:46:57.250 | INFO     | __main__:start:135 - System initialised — entering main loop
+2026-03-28 00:46:57.251 | DEBUG    | __main__:_main_loop:162 - --- Cycle 1 ---
+2026-03-28 00:46:57.251 | INFO     | __main__:_fetch_all_historical:385 - Fetching historical data for all assets…
+2026-03-28 00:46:57.355 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1009 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:47:27.256 | ERROR    | core.broker:get_historical_data:203 - Timeout fetching historical data for BTC
+2026-03-28 00:47:27.257 | WARNING  | core.data_feed:fetch_historical:43 - No historical data for BTC
+2026-03-28 00:47:27.870 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1010 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:47:57.770 | ERROR    | core.broker:get_historical_data:203 - Timeout fetching historical data for ETH
+2026-03-28 00:47:57.770 | WARNING  | core.data_feed:fetch_historical:43 - No historical data for ETH
+2026-03-28 00:47:58.386 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1011 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:48:24.721 | INFO     | __main__:start:117 - ============================================================
+2026-03-28 00:48:24.721 | INFO     | __main__:start:118 -   IBKR Algorithmic Trading System — Starting
+2026-03-28 00:48:24.721 | INFO     | __main__:start:119 - ============================================================
+2026-03-28 00:48:24.735 | INFO     | core.broker:nextValidId:40 - Connected to IBKR — next valid order ID: 1
+2026-03-28 00:48:24.736 | DEBUG    | core.broker:error:47 - IBKR info 2104: La connexion de données de marché est OK:usfarm.nj
+2026-03-28 00:48:24.736 | DEBUG    | core.broker:error:47 - IBKR info 2104: La connexion de données de marché est OK:usfuture
+2026-03-28 00:48:24.736 | DEBUG    | core.broker:error:47 - IBKR info 2104: La connexion de données de marché est OK:usopt.nj
+2026-03-28 00:48:24.736 | DEBUG    | core.broker:error:47 - IBKR info 2104: La connexion de données de marché est OK:usfarm
+2026-03-28 00:48:24.736 | DEBUG    | core.broker:error:47 - IBKR info 2106: La connexion de données HMDS est OK:euhmds
+2026-03-28 00:48:24.736 | DEBUG    | core.broker:error:47 - IBKR info 2106: La connexion de données HMDS est OK:ushmds
+2026-03-28 00:48:24.736 | DEBUG    | core.broker:error:47 - IBKR info 2158: La connexion de la batterie de serveurs Sec-def est OK:secdefil
+2026-03-28 00:48:24.736 | INFO     | core.broker:connect:175 - Market data type set to 3 (1=live, 3=delayed)
+2026-03-28 00:48:24.737 | INFO     | core.broker:connect:177 - IBKR Broker connected successfully
+2026-03-28 00:48:24.737 | INFO     | core.data_feed:subscribe:79 - Subscribed to real-time data for BTC
+2026-03-28 00:48:24.737 | INFO     | core.data_feed:subscribe:79 - Subscribed to real-time data for ETH
+2026-03-28 00:48:24.737 | INFO     | core.data_feed:subscribe:79 - Subscribed to real-time data for LTC
+2026-03-28 00:48:24.737 | INFO     | core.data_feed:subscribe:79 - Subscribed to real-time data for BCH
+2026-03-28 00:48:24.738 | INFO     | __main__:_fetch_all_historical:385 - Fetching historical data for all assets…
+2026-03-28 00:48:24.741 | DEBUG    | core.broker:accountDownloadEnd:117 - Account download complete: DUP591504
+2026-03-28 00:48:24.937 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1001 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:48:25.038 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1002 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:48:25.138 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1003 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:48:25.237 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1004 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:48:25.337 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1005 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:48:25.338 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for BTC
+2026-03-28 00:48:25.952 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1006 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:48:25.952 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for ETH
+2026-03-28 00:48:26.559 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1007 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:48:26.560 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for LTC
+2026-03-28 00:48:27.171 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1008 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:48:27.171 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for BCH
+2026-03-28 00:48:27.686 | INFO     | __main__:start:135 - System initialised — entering main loop
+2026-03-28 00:48:27.686 | DEBUG    | __main__:_main_loop:162 - --- Cycle 1 ---
+2026-03-28 00:48:27.686 | INFO     | __main__:_fetch_all_historical:385 - Fetching historical data for all assets…
+2026-03-28 00:48:27.795 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1009 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:48:27.796 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for BTC
+2026-03-28 00:48:28.409 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1010 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:48:28.409 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for ETH
+2026-03-28 00:48:29.015 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1011 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:48:29.016 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for LTC
+2026-03-28 00:48:29.618 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1012 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:48:29.619 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for BCH
+2026-03-28 00:48:35.151 | DEBUG    | __main__:_main_loop:162 - --- Cycle 2 ---
+2026-03-28 00:48:40.166 | DEBUG    | __main__:_main_loop:162 - --- Cycle 3 ---
+2026-03-28 00:48:45.169 | DEBUG    | __main__:_main_loop:162 - --- Cycle 4 ---
+2026-03-28 00:48:50.176 | DEBUG    | __main__:_main_loop:162 - --- Cycle 5 ---
+2026-03-28 00:48:55.176 | DEBUG    | __main__:_main_loop:162 - --- Cycle 6 ---
+2026-03-28 00:49:00.182 | DEBUG    | __main__:_main_loop:162 - --- Cycle 7 ---
+2026-03-28 00:49:05.193 | DEBUG    | __main__:_main_loop:162 - --- Cycle 8 ---
+2026-03-28 00:49:10.208 | DEBUG    | __main__:_main_loop:162 - --- Cycle 9 ---
+2026-03-28 00:49:15.221 | DEBUG    | __main__:_main_loop:162 - --- Cycle 10 ---
+2026-03-28 00:49:20.222 | DEBUG    | __main__:_main_loop:162 - --- Cycle 11 ---
+2026-03-28 00:49:25.235 | DEBUG    | __main__:_main_loop:162 - --- Cycle 12 ---
+2026-03-28 00:49:30.241 | DEBUG    | __main__:_main_loop:162 - --- Cycle 13 ---
+2026-03-28 00:49:30.241 | INFO     | __main__:_fetch_all_historical:385 - Fetching historical data for all assets…
+2026-03-28 00:49:30.345 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1013 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:49:30.345 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for BTC
+2026-03-28 00:49:30.952 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1014 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:49:30.952 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for ETH
+2026-03-28 00:49:31.560 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1015 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:49:31.561 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for LTC
+2026-03-28 00:49:32.173 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1016 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:49:32.173 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for BCH
+2026-03-28 00:49:37.692 | DEBUG    | __main__:_main_loop:162 - --- Cycle 14 ---
+2026-03-28 00:49:42.695 | DEBUG    | __main__:_main_loop:162 - --- Cycle 15 ---
+2026-03-28 00:49:47.705 | DEBUG    | __main__:_main_loop:162 - --- Cycle 16 ---
+2026-03-28 00:49:52.715 | DEBUG    | __main__:_main_loop:162 - --- Cycle 17 ---
+2026-03-28 00:49:57.725 | DEBUG    | __main__:_main_loop:162 - --- Cycle 18 ---
+2026-03-28 00:50:02.729 | DEBUG    | __main__:_main_loop:162 - --- Cycle 19 ---
+2026-03-28 00:50:07.733 | DEBUG    | __main__:_main_loop:162 - --- Cycle 20 ---
+2026-03-28 00:50:12.754 | DEBUG    | __main__:_main_loop:162 - --- Cycle 21 ---
+2026-03-28 00:50:17.763 | DEBUG    | __main__:_main_loop:162 - --- Cycle 22 ---
+2026-03-28 00:50:22.766 | DEBUG    | __main__:_main_loop:162 - --- Cycle 23 ---
+2026-03-28 00:50:27.776 | DEBUG    | __main__:_main_loop:162 - --- Cycle 24 ---
+2026-03-28 00:50:32.780 | DEBUG    | __main__:_main_loop:162 - --- Cycle 25 ---
+2026-03-28 00:50:32.780 | INFO     | __main__:_fetch_all_historical:385 - Fetching historical data for all assets…
+2026-03-28 00:50:32.882 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1017 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:50:32.882 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for BTC
+2026-03-28 00:50:33.491 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1018 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:50:33.491 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for ETH
+2026-03-28 00:50:34.109 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1019 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:50:34.109 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for LTC
+2026-03-28 00:50:34.736 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1020 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:50:34.736 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for BCH
+2026-03-28 00:50:40.253 | DEBUG    | __main__:_main_loop:162 - --- Cycle 26 ---
+2026-03-28 00:50:45.265 | DEBUG    | __main__:_main_loop:162 - --- Cycle 27 ---
+2026-03-28 00:50:50.272 | DEBUG    | __main__:_main_loop:162 - --- Cycle 28 ---
+2026-03-28 00:50:55.276 | DEBUG    | __main__:_main_loop:162 - --- Cycle 29 ---
+2026-03-28 00:51:00.289 | DEBUG    | __main__:_main_loop:162 - --- Cycle 30 ---
+2026-03-28 00:51:05.295 | DEBUG    | __main__:_main_loop:162 - --- Cycle 31 ---
+2026-03-28 00:51:10.298 | DEBUG    | __main__:_main_loop:162 - --- Cycle 32 ---
+2026-03-28 00:51:15.310 | DEBUG    | __main__:_main_loop:162 - --- Cycle 33 ---
+2026-03-28 00:51:20.323 | DEBUG    | __main__:_main_loop:162 - --- Cycle 34 ---
+2026-03-28 00:51:25.335 | DEBUG    | __main__:_main_loop:162 - --- Cycle 35 ---
+2026-03-28 00:51:30.338 | DEBUG    | __main__:_main_loop:162 - --- Cycle 36 ---
+2026-03-28 00:51:35.352 | DEBUG    | __main__:_main_loop:162 - --- Cycle 37 ---
+2026-03-28 00:51:35.352 | INFO     | __main__:_fetch_all_historical:385 - Fetching historical data for all assets…
+2026-03-28 00:51:35.455 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1021 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:51:35.456 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for BTC
+2026-03-28 00:51:36.062 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1022 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:51:36.063 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for ETH
+2026-03-28 00:51:36.678 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1023 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:51:36.678 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for LTC
+2026-03-28 00:51:37.294 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1024 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:51:37.294 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for BCH
+2026-03-28 00:51:42.802 | DEBUG    | __main__:_main_loop:162 - --- Cycle 38 ---
+2026-03-28 00:51:47.804 | DEBUG    | __main__:_main_loop:162 - --- Cycle 39 ---
+2026-03-28 00:51:52.810 | DEBUG    | __main__:_main_loop:162 - --- Cycle 40 ---
+2026-03-28 00:51:57.854 | DEBUG    | __main__:_main_loop:162 - --- Cycle 41 ---
+2026-03-28 00:52:02.861 | DEBUG    | __main__:_main_loop:162 - --- Cycle 42 ---
+2026-03-28 00:52:07.875 | DEBUG    | __main__:_main_loop:162 - --- Cycle 43 ---
+2026-03-28 00:52:12.885 | DEBUG    | __main__:_main_loop:162 - --- Cycle 44 ---
+2026-03-28 00:52:17.893 | DEBUG    | __main__:_main_loop:162 - --- Cycle 45 ---
+2026-03-28 00:52:22.899 | DEBUG    | __main__:_main_loop:162 - --- Cycle 46 ---
+2026-03-28 00:52:27.915 | DEBUG    | __main__:_main_loop:162 - --- Cycle 47 ---
+2026-03-28 00:52:32.930 | DEBUG    | __main__:_main_loop:162 - --- Cycle 48 ---
+2026-03-28 00:52:37.935 | DEBUG    | __main__:_main_loop:162 - --- Cycle 49 ---
+2026-03-28 00:52:37.935 | INFO     | __main__:_fetch_all_historical:385 - Fetching historical data for all assets…
+2026-03-28 00:52:38.040 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1025 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:52:38.041 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for BTC
+2026-03-28 00:52:38.655 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1026 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:52:38.655 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for ETH
+2026-03-28 00:52:39.271 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1027 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:52:39.272 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for LTC
+2026-03-28 00:52:39.889 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1028 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:52:39.889 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for BCH
+2026-03-28 00:52:45.391 | DEBUG    | __main__:_main_loop:162 - --- Cycle 50 ---
+2026-03-28 00:52:50.402 | DEBUG    | __main__:_main_loop:162 - --- Cycle 51 ---
+2026-03-28 00:52:55.405 | DEBUG    | __main__:_main_loop:162 - --- Cycle 52 ---
+2026-03-28 00:53:00.408 | DEBUG    | __main__:_main_loop:162 - --- Cycle 53 ---
+2026-03-28 00:53:05.422 | DEBUG    | __main__:_main_loop:162 - --- Cycle 54 ---
+2026-03-28 00:53:10.426 | DEBUG    | __main__:_main_loop:162 - --- Cycle 55 ---
+2026-03-28 00:53:15.429 | DEBUG    | __main__:_main_loop:162 - --- Cycle 56 ---
+2026-03-28 00:53:20.432 | DEBUG    | __main__:_main_loop:162 - --- Cycle 57 ---
+2026-03-28 00:53:25.440 | DEBUG    | __main__:_main_loop:162 - --- Cycle 58 ---
+2026-03-28 00:53:30.445 | DEBUG    | __main__:_main_loop:162 - --- Cycle 59 ---
+2026-03-28 00:53:35.452 | DEBUG    | __main__:_main_loop:162 - --- Cycle 60 ---
+2026-03-28 00:53:40.480 | DEBUG    | __main__:_main_loop:162 - --- Cycle 61 ---
+2026-03-28 00:53:40.480 | INFO     | __main__:_fetch_all_historical:385 - Fetching historical data for all assets…
+2026-03-28 00:53:40.582 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1029 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:53:40.583 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for BTC
+2026-03-28 00:53:41.191 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1030 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:53:41.192 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for ETH
+2026-03-28 00:53:41.797 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1031 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:53:41.797 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for LTC
+2026-03-28 00:53:42.403 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1032 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:53:42.403 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for BCH
+2026-03-28 00:53:47.917 | DEBUG    | __main__:_main_loop:162 - --- Cycle 62 ---
+2026-03-28 00:53:52.924 | DEBUG    | __main__:_main_loop:162 - --- Cycle 63 ---
+2026-03-28 00:53:57.933 | DEBUG    | __main__:_main_loop:162 - --- Cycle 64 ---
+2026-03-28 00:54:02.939 | DEBUG    | __main__:_main_loop:162 - --- Cycle 65 ---
+2026-03-28 00:54:07.947 | DEBUG    | __main__:_main_loop:162 - --- Cycle 66 ---
+2026-03-28 00:54:12.957 | DEBUG    | __main__:_main_loop:162 - --- Cycle 67 ---
+2026-03-28 00:54:17.971 | DEBUG    | __main__:_main_loop:162 - --- Cycle 68 ---
+2026-03-28 00:54:22.982 | DEBUG    | __main__:_main_loop:162 - --- Cycle 69 ---
+2026-03-28 00:54:27.997 | DEBUG    | __main__:_main_loop:162 - --- Cycle 70 ---
+2026-03-28 00:54:32.999 | DEBUG    | __main__:_main_loop:162 - --- Cycle 71 ---
+2026-03-28 00:54:38.009 | DEBUG    | __main__:_main_loop:162 - --- Cycle 72 ---
+2026-03-28 00:54:43.016 | DEBUG    | __main__:_main_loop:162 - --- Cycle 73 ---
+2026-03-28 00:54:43.016 | INFO     | __main__:_fetch_all_historical:385 - Fetching historical data for all assets…
+2026-03-28 00:54:43.119 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1033 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:54:43.119 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for BTC
+2026-03-28 00:54:43.725 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1034 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:54:43.725 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for ETH
+2026-03-28 00:54:44.342 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1035 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:54:44.343 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for LTC
+2026-03-28 00:54:44.956 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1036 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:54:44.957 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for BCH
+2026-03-28 00:54:50.461 | DEBUG    | __main__:_main_loop:162 - --- Cycle 74 ---
+2026-03-28 00:54:55.472 | DEBUG    | __main__:_main_loop:162 - --- Cycle 75 ---
+2026-03-28 00:55:00.474 | DEBUG    | __main__:_main_loop:162 - --- Cycle 76 ---
+2026-03-28 00:55:05.475 | DEBUG    | __main__:_main_loop:162 - --- Cycle 77 ---
+2026-03-28 00:55:10.478 | DEBUG    | __main__:_main_loop:162 - --- Cycle 78 ---
+2026-03-28 00:55:15.490 | DEBUG    | __main__:_main_loop:162 - --- Cycle 79 ---
+2026-03-28 00:55:20.496 | DEBUG    | __main__:_main_loop:162 - --- Cycle 80 ---
+2026-03-28 00:55:25.538 | DEBUG    | __main__:_main_loop:162 - --- Cycle 81 ---
+2026-03-28 00:55:30.538 | DEBUG    | __main__:_main_loop:162 - --- Cycle 82 ---
+2026-03-28 00:55:35.545 | DEBUG    | __main__:_main_loop:162 - --- Cycle 83 ---
+2026-03-28 00:55:40.557 | DEBUG    | __main__:_main_loop:162 - --- Cycle 84 ---
+2026-03-28 00:55:45.560 | DEBUG    | __main__:_main_loop:162 - --- Cycle 85 ---
+2026-03-28 00:55:45.560 | INFO     | __main__:_fetch_all_historical:385 - Fetching historical data for all assets…
+2026-03-28 00:55:45.664 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1037 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:55:45.665 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for BTC
+2026-03-28 00:55:46.275 | DEBUG    | core.broker:error:53 - IBKR API version notice reqId=1038 code=10285: Votre version d'API ne prend pas en charge les règles de taille en fractions. Veuillez mettre à jour à la version minimum 163.
+2026-03-28 00:55:46.276 | WARNING  | core.data_feed:fetch_historical:41 - No historical data for ETH
+2026-03-28 00:57:12.716 | INFO     | __main__:start:117 - ============================================================
+2026-03-28 00:57:12.717 | INFO     | __main__:start:118 -   IBKR Algorithmic Trading System — Starting
+2026-03-28 00:57:12.717 | INFO     | __main__:start:119 - ============================================================
+2026-03-28 00:57:12.729 | INFO     | core.broker:nextValidId:41 - Connected to IBKR — next valid order ID: 1
+2026-03-28 00:57:12.730 | DEBUG    | core.broker:error:52 - IBKR info 2104: La connexion de données de marché est OK:usfarm.nj
+2026-03-28 00:57:12.730 | DEBUG    | core.broker:error:52 - IBKR info 2104: La connexion de données de marché est OK:usfuture
+2026-03-28 00:57:12.730 | DEBUG    | core.broker:error:52 - IBKR info 2104: La connexion de données de marché est OK:usopt.nj
+2026-03-28 00:57:12.730 | DEBUG    | core.broker:error:52 - IBKR info 2104: La connexion de données de marché est OK:usfarm
+2026-03-28 00:57:12.730 | DEBUG    | core.broker:error:52 - IBKR info 2106: La connexion de données HMDS est OK:euhmds
+2026-03-28 00:57:12.731 | DEBUG    | core.broker:error:52 - IBKR info 2106: La connexion de données HMDS est OK:ushmds
+2026-03-28 00:57:12.731 | DEBUG    | core.broker:error:52 - IBKR info 2158: La connexion de la batterie de serveurs Sec-def est OK:secdefil
+2026-03-28 00:57:12.730 | INFO     | core.broker:connect:175 - Market data type set to 3 (1=live, 3=delayed)
+2026-03-28 00:57:12.731 | INFO     | core.broker:connect:177 - IBKR Broker connected successfully
+2026-03-28 00:57:12.731 | INFO     | core.data_feed:subscribe:81 - Subscribed to real-time data for BTC
+2026-03-28 00:57:12.731 | INFO     | core.data_feed:subscribe:81 - Subscribed to real-time data for ETH
+2026-03-28 00:57:12.731 | INFO     | core.data_feed:subscribe:81 - Subscribed to real-time data for LTC
+2026-03-28 00:57:12.732 | INFO     | core.data_feed:subscribe:81 - Subscribed to real-time data for BCH
+2026-03-28 00:57:12.732 | INFO     | __main__:_fetch_all_historical:385 - Fetching historical data for all assets…
+2026-03-28 00:57:12.736 | DEBUG    | core.broker:accountDownloadEnd:117 - Account download complete: DUP591504
+2026-03-28 00:57:13.565 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1005
+2026-03-28 00:57:13.570 | WARNING  | __main__:_fetch_all_historical:391 - Failed to fetch history for BTC: Unknown datetime string format, unable to parse: 20260325 16:01:00 US/Eastern
+2026-03-28 00:57:13.640 | DEBUG    | core.broker:error:52 - IBKR info 2104: La connexion de données de marché est OK:uscrypto
+2026-03-28 00:57:13.917 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1006
+2026-03-28 00:57:13.919 | WARNING  | __main__:_fetch_all_historical:391 - Failed to fetch history for ETH: Unknown datetime string format, unable to parse: 20260325 16:01:00 US/Eastern
+2026-03-28 00:57:14.241 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1007
+2026-03-28 00:57:14.244 | WARNING  | __main__:_fetch_all_historical:391 - Failed to fetch history for LTC: Unknown datetime string format, unable to parse: 20260325 16:01:00 US/Eastern
+2026-03-28 00:57:14.577 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1008
+2026-03-28 00:57:14.580 | WARNING  | __main__:_fetch_all_historical:391 - Failed to fetch history for BCH: Unknown datetime string format, unable to parse: 20260325 16:01:00 US/Eastern
+2026-03-28 00:57:14.580 | INFO     | __main__:start:135 - System initialised — entering main loop
+2026-03-28 00:57:14.580 | DEBUG    | __main__:_main_loop:162 - --- Cycle 1 ---
+2026-03-28 00:57:14.580 | INFO     | __main__:_fetch_all_historical:385 - Fetching historical data for all assets…
+2026-03-28 00:57:14.914 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1009
+2026-03-28 00:57:14.916 | WARNING  | __main__:_fetch_all_historical:391 - Failed to fetch history for BTC: Unknown datetime string format, unable to parse: 20260325 16:01:00 US/Eastern
+2026-03-28 00:57:15.253 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1010
+2026-03-28 00:57:15.255 | WARNING  | __main__:_fetch_all_historical:391 - Failed to fetch history for ETH: Unknown datetime string format, unable to parse: 20260325 16:01:00 US/Eastern
+2026-03-28 00:57:15.581 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1011
+2026-03-28 00:57:15.583 | WARNING  | __main__:_fetch_all_historical:391 - Failed to fetch history for LTC: Unknown datetime string format, unable to parse: 20260325 16:01:00 US/Eastern
+2026-03-28 00:57:15.907 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1012
+2026-03-28 00:57:15.910 | WARNING  | __main__:_fetch_all_historical:391 - Failed to fetch history for BCH: Unknown datetime string format, unable to parse: 20260325 16:01:00 US/Eastern
+2026-03-28 00:57:20.921 | DEBUG    | __main__:_main_loop:162 - --- Cycle 2 ---
+2026-03-28 00:57:25.924 | DEBUG    | __main__:_main_loop:162 - --- Cycle 3 ---
+2026-03-28 00:57:30.933 | DEBUG    | __main__:_main_loop:162 - --- Cycle 4 ---
+2026-03-28 00:57:35.938 | DEBUG    | __main__:_main_loop:162 - --- Cycle 5 ---
+2026-03-28 00:57:40.940 | DEBUG    | __main__:_main_loop:162 - --- Cycle 6 ---
+2026-03-28 00:57:45.948 | DEBUG    | __main__:_main_loop:162 - --- Cycle 7 ---
+2026-03-28 00:57:50.952 | DEBUG    | __main__:_main_loop:162 - --- Cycle 8 ---
+2026-03-28 00:57:55.957 | DEBUG    | __main__:_main_loop:162 - --- Cycle 9 ---
+2026-03-28 00:58:00.962 | DEBUG    | __main__:_main_loop:162 - --- Cycle 10 ---
+2026-03-28 00:58:05.964 | DEBUG    | __main__:_main_loop:162 - --- Cycle 11 ---
+2026-03-28 00:58:10.969 | DEBUG    | __main__:_main_loop:162 - --- Cycle 12 ---
+2026-03-28 00:58:15.979 | DEBUG    | __main__:_main_loop:162 - --- Cycle 13 ---
+2026-03-28 00:58:15.979 | INFO     | __main__:_fetch_all_historical:385 - Fetching historical data for all assets…
+2026-03-28 00:58:16.340 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1013
+2026-03-28 00:58:16.343 | WARNING  | __main__:_fetch_all_historical:391 - Failed to fetch history for BTC: Unknown datetime string format, unable to parse: 20260325 16:01:00 US/Eastern
+2026-03-28 00:58:16.670 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1014
+2026-03-28 00:58:16.672 | WARNING  | __main__:_fetch_all_historical:391 - Failed to fetch history for ETH: Unknown datetime string format, unable to parse: 20260325 16:01:00 US/Eastern
+2026-03-28 00:58:16.995 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1015
+2026-03-28 00:58:16.996 | WARNING  | __main__:_fetch_all_historical:391 - Failed to fetch history for LTC: Unknown datetime string format, unable to parse: 20260325 16:01:00 US/Eastern
+2026-03-28 00:58:17.322 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1016
+2026-03-28 00:58:17.324 | WARNING  | __main__:_fetch_all_historical:391 - Failed to fetch history for BCH: Unknown datetime string format, unable to parse: 20260325 16:01:00 US/Eastern
+2026-03-28 00:58:22.333 | DEBUG    | __main__:_main_loop:162 - --- Cycle 14 ---
+2026-03-28 00:58:27.335 | DEBUG    | __main__:_main_loop:162 - --- Cycle 15 ---
+2026-03-28 00:58:32.344 | DEBUG    | __main__:_main_loop:162 - --- Cycle 16 ---
+2026-03-28 00:58:37.347 | DEBUG    | __main__:_main_loop:162 - --- Cycle 17 ---
+2026-03-28 00:58:42.353 | DEBUG    | __main__:_main_loop:162 - --- Cycle 18 ---
+2026-03-28 00:58:47.362 | DEBUG    | __main__:_main_loop:162 - --- Cycle 19 ---
+2026-03-28 00:58:52.366 | DEBUG    | __main__:_main_loop:162 - --- Cycle 20 ---
+2026-03-28 00:58:57.396 | DEBUG    | __main__:_main_loop:162 - --- Cycle 21 ---
+2026-03-28 00:59:02.404 | DEBUG    | __main__:_main_loop:162 - --- Cycle 22 ---
+2026-03-28 00:59:07.410 | DEBUG    | __main__:_main_loop:162 - --- Cycle 23 ---
+2026-03-28 00:59:12.414 | DEBUG    | __main__:_main_loop:162 - --- Cycle 24 ---
+2026-03-28 00:59:17.418 | DEBUG    | __main__:_main_loop:162 - --- Cycle 25 ---
+2026-03-28 00:59:17.419 | INFO     | __main__:_fetch_all_historical:385 - Fetching historical data for all assets…
+2026-03-28 00:59:17.792 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1017
+2026-03-28 00:59:17.794 | WARNING  | __main__:_fetch_all_historical:391 - Failed to fetch history for BTC: Unknown datetime string format, unable to parse: 20260325 16:01:00 US/Eastern
+2026-03-28 00:59:18.121 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1018
+2026-03-28 00:59:18.123 | WARNING  | __main__:_fetch_all_historical:391 - Failed to fetch history for ETH: Unknown datetime string format, unable to parse: 20260325 16:01:00 US/Eastern
+2026-03-28 00:59:18.449 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1019
+2026-03-28 00:59:18.451 | WARNING  | __main__:_fetch_all_historical:391 - Failed to fetch history for LTC: Unknown datetime string format, unable to parse: 20260325 16:01:00 US/Eastern
+2026-03-28 00:59:18.772 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1020
+2026-03-28 00:59:18.774 | WARNING  | __main__:_fetch_all_historical:391 - Failed to fetch history for BCH: Unknown datetime string format, unable to parse: 20260325 16:01:00 US/Eastern
+2026-03-28 00:59:23.786 | DEBUG    | __main__:_main_loop:162 - --- Cycle 26 ---
+2026-03-28 00:59:28.799 | DEBUG    | __main__:_main_loop:162 - --- Cycle 27 ---
+2026-03-28 00:59:38.634 | INFO     | __main__:start:117 - ============================================================
+2026-03-28 00:59:38.635 | INFO     | __main__:start:118 -   IBKR Algorithmic Trading System — Starting
+2026-03-28 00:59:38.635 | INFO     | __main__:start:119 - ============================================================
+2026-03-28 00:59:38.644 | INFO     | core.broker:nextValidId:41 - Connected to IBKR — next valid order ID: 1
+2026-03-28 00:59:38.645 | DEBUG    | core.broker:error:52 - IBKR info 2104: La connexion de données de marché est OK:uscrypto
+2026-03-28 00:59:38.645 | DEBUG    | core.broker:error:52 - IBKR info 2104: La connexion de données de marché est OK:usfarm.nj
+2026-03-28 00:59:38.645 | DEBUG    | core.broker:error:52 - IBKR info 2104: La connexion de données de marché est OK:usfuture
+2026-03-28 00:59:38.645 | DEBUG    | core.broker:error:52 - IBKR info 2104: La connexion de données de marché est OK:usopt.nj
+2026-03-28 00:59:38.645 | DEBUG    | core.broker:error:52 - IBKR info 2104: La connexion de données de marché est OK:usfarm
+2026-03-28 00:59:38.645 | DEBUG    | core.broker:error:52 - IBKR info 2106: La connexion de données HMDS est OK:euhmds
+2026-03-28 00:59:38.645 | DEBUG    | core.broker:error:52 - IBKR info 2106: La connexion de données HMDS est OK:ushmds
+2026-03-28 00:59:38.646 | DEBUG    | core.broker:error:52 - IBKR info 2158: La connexion de la batterie de serveurs Sec-def est OK:secdefil
+2026-03-28 00:59:38.645 | INFO     | core.broker:connect:175 - Market data type set to 3 (1=live, 3=delayed)
+2026-03-28 00:59:38.646 | INFO     | core.broker:connect:177 - IBKR Broker connected successfully
+2026-03-28 00:59:38.646 | INFO     | core.data_feed:subscribe:96 - Subscribed to real-time data for BTC
+2026-03-28 00:59:38.646 | INFO     | core.data_feed:subscribe:96 - Subscribed to real-time data for ETH
+2026-03-28 00:59:38.646 | INFO     | core.data_feed:subscribe:96 - Subscribed to real-time data for LTC
+2026-03-28 00:59:38.647 | INFO     | core.data_feed:subscribe:96 - Subscribed to real-time data for BCH
+2026-03-28 00:59:38.647 | INFO     | __main__:_fetch_all_historical:385 - Fetching historical data for all assets…
+2026-03-28 00:59:38.650 | DEBUG    | core.broker:accountDownloadEnd:117 - Account download complete: DUP591504
+2026-03-28 00:59:39.459 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1005
+2026-03-28 00:59:39.479 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for BTC (5 mins)
+2026-03-28 00:59:40.314 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1006
+2026-03-28 00:59:40.319 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for ETH (5 mins)
+2026-03-28 00:59:41.146 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1007
+2026-03-28 00:59:41.150 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for LTC (5 mins)
+2026-03-28 00:59:41.982 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1008
+2026-03-28 00:59:41.986 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for BCH (5 mins)
+2026-03-28 00:59:42.501 | INFO     | __main__:start:135 - System initialised — entering main loop
+2026-03-28 00:59:42.502 | DEBUG    | __main__:_main_loop:162 - --- Cycle 1 ---
+2026-03-28 00:59:42.502 | INFO     | __main__:_fetch_all_historical:385 - Fetching historical data for all assets…
+2026-03-28 00:59:42.828 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1009
+2026-03-28 00:59:42.833 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for BTC (5 mins)
+2026-03-28 00:59:43.662 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1010
+2026-03-28 00:59:43.666 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for ETH (5 mins)
+2026-03-28 00:59:44.500 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1011
+2026-03-28 00:59:44.505 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for LTC (5 mins)
+2026-03-28 00:59:45.332 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1012
+2026-03-28 00:59:45.337 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for BCH (5 mins)
+2026-03-28 00:59:50.868 | DEBUG    | __main__:_main_loop:162 - --- Cycle 2 ---
+2026-03-28 00:59:55.109 | DEBUG    | core.broker:error:52 - IBKR info 2104: La connexion de données de marché est OK:eufarmnj
+2026-03-28 00:59:55.887 | DEBUG    | __main__:_main_loop:162 - --- Cycle 3 ---
+2026-03-28 01:00:00.905 | DEBUG    | __main__:_main_loop:162 - --- Cycle 4 ---
+2026-03-28 01:00:05.914 | DEBUG    | __main__:_main_loop:162 - --- Cycle 5 ---
+2026-03-28 01:00:10.925 | DEBUG    | __main__:_main_loop:162 - --- Cycle 6 ---
+2026-03-28 01:00:15.942 | DEBUG    | __main__:_main_loop:162 - --- Cycle 7 ---
+2026-03-28 01:00:20.960 | DEBUG    | __main__:_main_loop:162 - --- Cycle 8 ---
+2026-03-28 01:00:25.967 | DEBUG    | __main__:_main_loop:162 - --- Cycle 9 ---
+2026-03-28 01:00:30.979 | DEBUG    | __main__:_main_loop:162 - --- Cycle 10 ---
+2026-03-28 01:00:35.991 | DEBUG    | __main__:_main_loop:162 - --- Cycle 11 ---
+2026-03-28 01:00:41.006 | DEBUG    | __main__:_main_loop:162 - --- Cycle 12 ---
+2026-03-28 01:00:46.026 | DEBUG    | __main__:_main_loop:162 - --- Cycle 13 ---
+2026-03-28 01:00:46.026 | INFO     | __main__:_fetch_all_historical:385 - Fetching historical data for all assets…
+2026-03-28 01:00:46.351 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1013
+2026-03-28 01:00:46.355 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for BTC (5 mins)
+2026-03-28 01:00:47.191 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1014
+2026-03-28 01:00:47.196 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for ETH (5 mins)
+2026-03-28 01:00:48.026 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1015
+2026-03-28 01:00:48.032 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for LTC (5 mins)
+2026-03-28 01:00:48.871 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1016
+2026-03-28 01:00:48.876 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for BCH (5 mins)
+2026-03-28 01:00:54.397 | DEBUG    | __main__:_main_loop:162 - --- Cycle 14 ---
+2026-03-28 01:00:59.416 | DEBUG    | __main__:_main_loop:162 - --- Cycle 15 ---
+2026-03-28 01:01:04.434 | DEBUG    | __main__:_main_loop:162 - --- Cycle 16 ---
+2026-03-28 01:01:09.453 | DEBUG    | __main__:_main_loop:162 - --- Cycle 17 ---
+2026-03-28 01:01:14.461 | DEBUG    | __main__:_main_loop:162 - --- Cycle 18 ---
+2026-03-28 01:01:19.470 | DEBUG    | __main__:_main_loop:162 - --- Cycle 19 ---
+2026-03-28 01:01:24.483 | DEBUG    | __main__:_main_loop:162 - --- Cycle 20 ---
+2026-03-28 01:01:29.523 | DEBUG    | __main__:_main_loop:162 - --- Cycle 21 ---
+2026-03-28 01:01:34.540 | DEBUG    | __main__:_main_loop:162 - --- Cycle 22 ---
+2026-03-28 01:01:39.555 | DEBUG    | __main__:_main_loop:162 - --- Cycle 23 ---
+2026-03-28 01:01:44.564 | DEBUG    | __main__:_main_loop:162 - --- Cycle 24 ---
+2026-03-28 01:01:49.584 | DEBUG    | __main__:_main_loop:162 - --- Cycle 25 ---
+2026-03-28 01:01:49.584 | INFO     | __main__:_fetch_all_historical:385 - Fetching historical data for all assets…
+2026-03-28 01:01:49.906 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1017
+2026-03-28 01:01:49.910 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for BTC (5 mins)
+2026-03-28 01:01:50.738 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1018
+2026-03-28 01:01:50.743 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for ETH (5 mins)
+2026-03-28 01:01:51.578 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1019
+2026-03-28 01:01:51.584 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for LTC (5 mins)
+2026-03-28 01:01:52.418 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1020
+2026-03-28 01:01:52.423 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for BCH (5 mins)
+2026-03-28 01:01:57.945 | DEBUG    | __main__:_main_loop:162 - --- Cycle 26 ---
+2026-03-28 01:02:02.955 | DEBUG    | __main__:_main_loop:162 - --- Cycle 27 ---
+2026-03-28 01:02:07.964 | DEBUG    | __main__:_main_loop:162 - --- Cycle 28 ---
+2026-03-28 01:02:12.980 | DEBUG    | __main__:_main_loop:162 - --- Cycle 29 ---
+2026-03-28 01:02:17.995 | DEBUG    | __main__:_main_loop:162 - --- Cycle 30 ---
+2026-03-28 01:02:23.014 | DEBUG    | __main__:_main_loop:162 - --- Cycle 31 ---
+2026-03-28 01:02:28.035 | DEBUG    | __main__:_main_loop:162 - --- Cycle 32 ---
+2026-03-28 01:02:33.044 | DEBUG    | __main__:_main_loop:162 - --- Cycle 33 ---
+2026-03-28 01:02:38.054 | DEBUG    | __main__:_main_loop:162 - --- Cycle 34 ---
+2026-03-28 01:02:43.070 | DEBUG    | __main__:_main_loop:162 - --- Cycle 35 ---
+2026-03-28 01:02:48.082 | DEBUG    | __main__:_main_loop:162 - --- Cycle 36 ---
+2026-03-28 01:02:53.100 | DEBUG    | __main__:_main_loop:162 - --- Cycle 37 ---
+2026-03-28 01:02:53.101 | INFO     | __main__:_fetch_all_historical:385 - Fetching historical data for all assets…
+2026-03-28 01:02:53.423 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1021
+2026-03-28 01:02:53.428 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for BTC (5 mins)
+2026-03-28 01:02:54.266 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1022
+2026-03-28 01:02:54.271 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for ETH (5 mins)
+2026-03-28 01:02:55.101 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1023
+2026-03-28 01:02:55.106 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for LTC (5 mins)
+2026-03-28 01:02:55.954 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1024
+2026-03-28 01:02:55.958 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for BCH (5 mins)
+2026-03-28 01:03:01.486 | DEBUG    | __main__:_main_loop:162 - --- Cycle 38 ---
+2026-03-28 01:03:06.504 | DEBUG    | __main__:_main_loop:162 - --- Cycle 39 ---
+2026-03-28 01:03:11.511 | DEBUG    | __main__:_main_loop:162 - --- Cycle 40 ---
+2026-03-28 01:03:16.538 | DEBUG    | __main__:_main_loop:162 - --- Cycle 41 ---
+2026-03-28 01:03:21.553 | DEBUG    | __main__:_main_loop:162 - --- Cycle 42 ---
+2026-03-28 01:03:26.571 | DEBUG    | __main__:_main_loop:162 - --- Cycle 43 ---
+2026-03-28 01:03:31.586 | DEBUG    | __main__:_main_loop:162 - --- Cycle 44 ---
+2026-03-28 01:03:36.599 | DEBUG    | __main__:_main_loop:162 - --- Cycle 45 ---
+2026-03-28 01:03:41.612 | DEBUG    | __main__:_main_loop:162 - --- Cycle 46 ---
+2026-03-28 01:03:42.474 | WARNING  | core.broker:error:56 - IBKR error reqId=-1 code=2108: La connexion de données de marché est inactive mais disponible sur demande.eufarmnj
+2026-03-28 01:03:42.474 | WARNING  | core.broker:error:56 - IBKR error reqId=-1 code=2108: La connexion de données de marché est inactive mais disponible sur demande.eufarmnj
+2026-03-28 01:03:46.619 | DEBUG    | __main__:_main_loop:162 - --- Cycle 47 ---
+2026-03-28 01:03:51.639 | DEBUG    | __main__:_main_loop:162 - --- Cycle 48 ---
+2026-03-28 01:03:56.648 | DEBUG    | __main__:_main_loop:162 - --- Cycle 49 ---
+2026-03-28 01:03:56.648 | INFO     | __main__:_fetch_all_historical:385 - Fetching historical data for all assets…
+2026-03-28 01:03:56.972 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1025
+2026-03-28 01:03:56.978 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for BTC (5 mins)
+2026-03-28 01:03:57.820 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1026
+2026-03-28 01:03:57.825 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for ETH (5 mins)
+2026-03-28 01:03:58.652 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1027
+2026-03-28 01:03:58.657 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for LTC (5 mins)
+2026-03-28 01:03:59.487 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1028
+2026-03-28 01:03:59.492 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for BCH (5 mins)
+2026-03-28 01:04:05.012 | DEBUG    | __main__:_main_loop:162 - --- Cycle 50 ---
+2026-03-28 01:04:10.022 | DEBUG    | __main__:_main_loop:162 - --- Cycle 51 ---
+2026-03-28 01:04:15.038 | DEBUG    | __main__:_main_loop:162 - --- Cycle 52 ---
+2026-03-28 01:04:20.053 | DEBUG    | __main__:_main_loop:162 - --- Cycle 53 ---
+2026-03-28 01:04:25.073 | DEBUG    | __main__:_main_loop:162 - --- Cycle 54 ---
+2026-03-28 01:04:30.088 | DEBUG    | __main__:_main_loop:162 - --- Cycle 55 ---
+2026-03-28 01:04:35.095 | DEBUG    | __main__:_main_loop:162 - --- Cycle 56 ---
+2026-03-28 01:04:40.104 | DEBUG    | __main__:_main_loop:162 - --- Cycle 57 ---
+2026-03-28 01:04:45.118 | DEBUG    | __main__:_main_loop:162 - --- Cycle 58 ---
+2026-03-28 01:04:50.135 | DEBUG    | __main__:_main_loop:162 - --- Cycle 59 ---
+2026-03-28 01:04:55.142 | DEBUG    | __main__:_main_loop:162 - --- Cycle 60 ---
+2026-03-28 01:05:00.170 | DEBUG    | __main__:_main_loop:162 - --- Cycle 61 ---
+2026-03-28 01:05:00.171 | INFO     | __main__:_fetch_all_historical:385 - Fetching historical data for all assets…
+2026-03-28 01:05:00.523 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1029
+2026-03-28 01:05:00.529 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for BTC (5 mins)
+2026-03-28 01:05:01.438 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1030
+2026-03-28 01:05:01.445 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for ETH (5 mins)
+2026-03-28 01:05:02.272 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1031
+2026-03-28 01:05:02.277 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for LTC (5 mins)
+2026-03-28 01:05:03.096 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1032
+2026-03-28 01:05:03.100 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for BCH (5 mins)
+2026-03-28 01:05:08.619 | DEBUG    | __main__:_main_loop:162 - --- Cycle 62 ---
+2026-03-28 01:05:13.627 | DEBUG    | __main__:_main_loop:162 - --- Cycle 63 ---
+2026-03-28 01:05:18.635 | DEBUG    | __main__:_main_loop:162 - --- Cycle 64 ---
+2026-03-28 01:05:23.643 | DEBUG    | __main__:_main_loop:162 - --- Cycle 65 ---
+2026-03-28 01:05:28.649 | DEBUG    | __main__:_main_loop:162 - --- Cycle 66 ---
+2026-03-28 01:05:33.654 | DEBUG    | __main__:_main_loop:162 - --- Cycle 67 ---
+2026-03-28 01:05:38.663 | DEBUG    | __main__:_main_loop:162 - --- Cycle 68 ---
+2026-03-28 01:05:43.669 | DEBUG    | __main__:_main_loop:162 - --- Cycle 69 ---
+2026-03-28 01:05:48.690 | DEBUG    | __main__:_main_loop:162 - --- Cycle 70 ---
+2026-03-28 01:05:53.701 | DEBUG    | __main__:_main_loop:162 - --- Cycle 71 ---
+2026-03-28 01:05:58.710 | DEBUG    | __main__:_main_loop:162 - --- Cycle 72 ---
+2026-03-28 01:06:03.728 | DEBUG    | __main__:_main_loop:162 - --- Cycle 73 ---
+2026-03-28 01:06:03.729 | INFO     | __main__:_fetch_all_historical:385 - Fetching historical data for all assets…
+2026-03-28 01:06:04.050 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1033
+2026-03-28 01:06:04.055 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for BTC (5 mins)
+2026-03-28 01:06:04.891 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1034
+2026-03-28 01:06:04.896 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for ETH (5 mins)
+2026-03-28 01:06:05.732 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1035
+2026-03-28 01:06:05.736 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for LTC (5 mins)
+2026-03-28 01:06:06.558 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1036
+2026-03-28 01:06:06.562 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for BCH (5 mins)
+2026-03-28 01:06:12.070 | DEBUG    | __main__:_main_loop:162 - --- Cycle 74 ---
+2026-03-28 01:06:17.075 | DEBUG    | __main__:_main_loop:162 - --- Cycle 75 ---
+2026-03-28 01:06:22.087 | DEBUG    | __main__:_main_loop:162 - --- Cycle 76 ---
+2026-03-28 01:06:27.105 | DEBUG    | __main__:_main_loop:162 - --- Cycle 77 ---
+2026-03-28 01:06:32.116 | DEBUG    | __main__:_main_loop:162 - --- Cycle 78 ---
+2026-03-28 01:06:37.131 | DEBUG    | __main__:_main_loop:162 - --- Cycle 79 ---
+2026-03-28 01:06:42.148 | DEBUG    | __main__:_main_loop:162 - --- Cycle 80 ---
+2026-03-28 01:06:47.184 | DEBUG    | __main__:_main_loop:162 - --- Cycle 81 ---
+2026-03-28 01:06:52.192 | DEBUG    | __main__:_main_loop:162 - --- Cycle 82 ---
+2026-03-28 01:06:57.201 | DEBUG    | __main__:_main_loop:162 - --- Cycle 83 ---
+2026-03-28 01:07:02.214 | DEBUG    | __main__:_main_loop:162 - --- Cycle 84 ---
+2026-03-28 01:07:07.231 | DEBUG    | __main__:_main_loop:162 - --- Cycle 85 ---
+2026-03-28 01:07:07.231 | INFO     | __main__:_fetch_all_historical:385 - Fetching historical data for all assets…
+2026-03-28 01:07:07.551 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1037
+2026-03-28 01:07:07.556 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for BTC (5 mins)
+2026-03-28 01:07:08.382 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1038
+2026-03-28 01:07:08.387 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for ETH (5 mins)
+2026-03-28 01:07:09.221 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1039
+2026-03-28 01:07:09.225 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for LTC (5 mins)
+2026-03-28 01:07:10.067 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1040
+2026-03-28 01:07:10.073 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for BCH (5 mins)
+2026-03-28 01:07:15.600 | DEBUG    | __main__:_main_loop:162 - --- Cycle 86 ---
+2026-03-28 01:07:20.607 | DEBUG    | __main__:_main_loop:162 - --- Cycle 87 ---
+2026-03-28 01:07:25.627 | DEBUG    | __main__:_main_loop:162 - --- Cycle 88 ---
+2026-03-28 01:07:30.648 | DEBUG    | __main__:_main_loop:162 - --- Cycle 89 ---
+2026-03-28 01:07:35.654 | DEBUG    | __main__:_main_loop:162 - --- Cycle 90 ---
+2026-03-28 01:07:40.664 | DEBUG    | __main__:_main_loop:162 - --- Cycle 91 ---
+2026-03-28 01:07:45.679 | DEBUG    | __main__:_main_loop:162 - --- Cycle 92 ---
+2026-03-28 01:07:50.691 | DEBUG    | __main__:_main_loop:162 - --- Cycle 93 ---
+2026-03-28 01:07:55.708 | DEBUG    | __main__:_main_loop:162 - --- Cycle 94 ---
+2026-03-28 01:08:00.714 | DEBUG    | __main__:_main_loop:162 - --- Cycle 95 ---
+2026-03-28 01:08:05.732 | DEBUG    | __main__:_main_loop:162 - --- Cycle 96 ---
+2026-03-28 01:08:10.749 | DEBUG    | __main__:_main_loop:162 - --- Cycle 97 ---
+2026-03-28 01:08:10.749 | INFO     | __main__:_fetch_all_historical:385 - Fetching historical data for all assets…
+2026-03-28 01:08:11.087 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1041
+2026-03-28 01:08:11.093 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for BTC (5 mins)
+2026-03-28 01:08:11.920 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1042
+2026-03-28 01:08:11.925 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for ETH (5 mins)
+2026-03-28 01:08:12.753 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1043
+2026-03-28 01:08:12.757 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for LTC (5 mins)
+2026-03-28 01:08:13.593 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1044
+2026-03-28 01:08:13.598 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for BCH (5 mins)
+2026-03-28 01:08:19.131 | DEBUG    | __main__:_main_loop:162 - --- Cycle 98 ---
+2026-03-28 01:08:24.145 | DEBUG    | __main__:_main_loop:162 - --- Cycle 99 ---
+2026-03-28 01:08:29.154 | DEBUG    | __main__:_main_loop:162 - --- Cycle 100 ---
+2026-03-28 01:08:34.208 | DEBUG    | __main__:_main_loop:162 - --- Cycle 101 ---
+2026-03-28 01:08:39.216 | DEBUG    | __main__:_main_loop:162 - --- Cycle 102 ---
+2026-03-28 01:08:44.232 | DEBUG    | __main__:_main_loop:162 - --- Cycle 103 ---
+2026-03-28 01:08:49.244 | DEBUG    | __main__:_main_loop:162 - --- Cycle 104 ---
+2026-03-28 01:08:54.253 | DEBUG    | __main__:_main_loop:162 - --- Cycle 105 ---
+2026-03-28 01:08:59.263 | DEBUG    | __main__:_main_loop:162 - --- Cycle 106 ---
+2026-03-28 01:09:04.282 | DEBUG    | __main__:_main_loop:162 - --- Cycle 107 ---
+2026-03-28 01:09:09.300 | DEBUG    | __main__:_main_loop:162 - --- Cycle 108 ---
+2026-03-28 01:09:14.308 | DEBUG    | __main__:_main_loop:162 - --- Cycle 109 ---
+2026-03-28 01:09:14.308 | INFO     | __main__:_fetch_all_historical:385 - Fetching historical data for all assets…
+2026-03-28 01:09:14.632 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1045
+2026-03-28 01:09:14.636 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for BTC (5 mins)
+2026-03-28 01:09:15.473 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1046
+2026-03-28 01:09:15.477 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for ETH (5 mins)
+2026-03-28 01:09:16.295 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1047
+2026-03-28 01:09:16.300 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for LTC (5 mins)
+2026-03-28 01:09:17.123 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1048
+2026-03-28 01:09:17.127 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for BCH (5 mins)
+2026-03-28 01:09:22.662 | DEBUG    | __main__:_main_loop:162 - --- Cycle 110 ---
+2026-03-28 01:09:27.676 | DEBUG    | __main__:_main_loop:162 - --- Cycle 111 ---
+2026-03-28 01:09:32.688 | DEBUG    | __main__:_main_loop:162 - --- Cycle 112 ---
+2026-03-28 01:09:37.696 | DEBUG    | __main__:_main_loop:162 - --- Cycle 113 ---
+2026-03-28 01:09:42.710 | DEBUG    | __main__:_main_loop:162 - --- Cycle 114 ---
+2026-03-28 01:09:47.725 | DEBUG    | __main__:_main_loop:162 - --- Cycle 115 ---
+2026-03-28 01:09:52.734 | DEBUG    | __main__:_main_loop:162 - --- Cycle 116 ---
+2026-03-28 01:09:57.747 | DEBUG    | __main__:_main_loop:162 - --- Cycle 117 ---
+2026-03-28 01:10:02.763 | DEBUG    | __main__:_main_loop:162 - --- Cycle 118 ---
+2026-03-28 01:10:07.778 | DEBUG    | __main__:_main_loop:162 - --- Cycle 119 ---
+2026-03-28 01:10:12.788 | DEBUG    | __main__:_main_loop:162 - --- Cycle 120 ---
+2026-03-28 01:10:17.827 | DEBUG    | __main__:_main_loop:162 - --- Cycle 121 ---
+2026-03-28 01:10:17.827 | INFO     | __main__:_fetch_all_historical:385 - Fetching historical data for all assets…
+2026-03-28 01:10:18.150 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1049
+2026-03-28 01:10:18.154 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for BTC (5 mins)
+2026-03-28 01:10:18.986 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1050
+2026-03-28 01:10:18.990 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for ETH (5 mins)
+2026-03-28 01:10:19.811 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1051
+2026-03-28 01:10:19.816 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for LTC (5 mins)
+2026-03-28 01:10:20.638 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1052
+2026-03-28 01:10:20.643 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for BCH (5 mins)
+2026-03-28 01:10:26.174 | DEBUG    | __main__:_main_loop:162 - --- Cycle 122 ---
+2026-03-28 01:10:31.187 | DEBUG    | __main__:_main_loop:162 - --- Cycle 123 ---
+2026-03-28 01:10:36.200 | DEBUG    | __main__:_main_loop:162 - --- Cycle 124 ---
+2026-03-28 01:10:41.206 | DEBUG    | __main__:_main_loop:162 - --- Cycle 125 ---
+2026-03-28 01:10:46.226 | DEBUG    | __main__:_main_loop:162 - --- Cycle 126 ---
+2026-03-28 01:10:51.244 | DEBUG    | __main__:_main_loop:162 - --- Cycle 127 ---
+2026-03-28 01:10:56.257 | DEBUG    | __main__:_main_loop:162 - --- Cycle 128 ---
+2026-03-28 01:11:01.264 | DEBUG    | __main__:_main_loop:162 - --- Cycle 129 ---
+2026-03-28 01:11:06.283 | DEBUG    | __main__:_main_loop:162 - --- Cycle 130 ---
+2026-03-28 01:11:11.289 | DEBUG    | __main__:_main_loop:162 - --- Cycle 131 ---
+2026-03-28 01:11:16.296 | DEBUG    | __main__:_main_loop:162 - --- Cycle 132 ---
+2026-03-28 01:11:21.305 | DEBUG    | __main__:_main_loop:162 - --- Cycle 133 ---
+2026-03-28 01:11:21.306 | INFO     | __main__:_fetch_all_historical:385 - Fetching historical data for all assets…
+2026-03-28 01:11:21.635 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1053
+2026-03-28 01:11:21.641 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for BTC (5 mins)
+2026-03-28 01:11:22.481 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1054
+2026-03-28 01:11:22.486 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for ETH (5 mins)
+2026-03-28 01:11:23.317 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1055
+2026-03-28 01:11:23.321 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for LTC (5 mins)
+2026-03-28 01:11:24.158 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1056
+2026-03-28 01:11:24.163 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for BCH (5 mins)
+2026-03-28 01:11:29.683 | DEBUG    | __main__:_main_loop:162 - --- Cycle 134 ---
+2026-03-28 01:11:34.693 | DEBUG    | __main__:_main_loop:162 - --- Cycle 135 ---
+2026-03-28 01:11:39.699 | DEBUG    | __main__:_main_loop:162 - --- Cycle 136 ---
+2026-03-28 01:11:44.706 | DEBUG    | __main__:_main_loop:162 - --- Cycle 137 ---
+2026-03-28 01:11:49.717 | DEBUG    | __main__:_main_loop:162 - --- Cycle 138 ---
+2026-03-28 01:11:54.734 | DEBUG    | __main__:_main_loop:162 - --- Cycle 139 ---
+2026-03-28 01:11:59.742 | DEBUG    | __main__:_main_loop:162 - --- Cycle 140 ---
+2026-03-28 01:12:04.776 | DEBUG    | __main__:_main_loop:162 - --- Cycle 141 ---
+2026-03-28 01:12:09.791 | DEBUG    | __main__:_main_loop:162 - --- Cycle 142 ---
+2026-03-28 01:12:14.800 | DEBUG    | __main__:_main_loop:162 - --- Cycle 143 ---
+2026-03-28 01:12:19.816 | DEBUG    | __main__:_main_loop:162 - --- Cycle 144 ---
+2026-03-28 01:12:24.837 | DEBUG    | __main__:_main_loop:162 - --- Cycle 145 ---
+2026-03-28 01:12:24.837 | INFO     | __main__:_fetch_all_historical:385 - Fetching historical data for all assets…
+2026-03-28 01:12:25.159 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1057
+2026-03-28 01:12:25.164 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for BTC (5 mins)
+2026-03-28 01:12:25.997 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1058
+2026-03-28 01:12:26.002 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for ETH (5 mins)
+2026-03-28 01:12:26.833 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1059
+2026-03-28 01:12:26.838 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for LTC (5 mins)
+2026-03-28 01:12:27.660 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1060
+2026-03-28 01:12:27.664 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for BCH (5 mins)
+2026-03-28 01:12:33.181 | DEBUG    | __main__:_main_loop:162 - --- Cycle 146 ---
+2026-03-28 01:12:38.195 | DEBUG    | __main__:_main_loop:162 - --- Cycle 147 ---
+2026-03-28 01:12:43.214 | DEBUG    | __main__:_main_loop:162 - --- Cycle 148 ---
+2026-03-28 01:12:48.231 | DEBUG    | __main__:_main_loop:162 - --- Cycle 149 ---
+2026-03-28 01:12:53.237 | DEBUG    | __main__:_main_loop:162 - --- Cycle 150 ---
+2026-03-28 01:12:58.255 | DEBUG    | __main__:_main_loop:162 - --- Cycle 151 ---
+2026-03-28 01:13:03.267 | DEBUG    | __main__:_main_loop:162 - --- Cycle 152 ---
+2026-03-28 01:13:08.275 | DEBUG    | __main__:_main_loop:162 - --- Cycle 153 ---
+2026-03-28 01:13:13.290 | DEBUG    | __main__:_main_loop:162 - --- Cycle 154 ---
+2026-03-28 01:13:18.305 | DEBUG    | __main__:_main_loop:162 - --- Cycle 155 ---
+2026-03-28 01:13:23.327 | DEBUG    | __main__:_main_loop:162 - --- Cycle 156 ---
+2026-03-28 01:13:28.334 | DEBUG    | __main__:_main_loop:162 - --- Cycle 157 ---
+2026-03-28 01:13:28.335 | INFO     | __main__:_fetch_all_historical:385 - Fetching historical data for all assets…
+2026-03-28 01:13:28.660 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1061
+2026-03-28 01:13:28.665 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for BTC (5 mins)
+2026-03-28 01:13:29.494 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1062
+2026-03-28 01:13:29.499 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for ETH (5 mins)
+2026-03-28 01:13:30.332 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1063
+2026-03-28 01:13:30.337 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for LTC (5 mins)
+2026-03-28 01:13:31.170 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1064
+2026-03-28 01:13:31.175 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for BCH (5 mins)
+2026-03-28 01:13:36.694 | DEBUG    | __main__:_main_loop:162 - --- Cycle 158 ---
+2026-03-28 01:13:41.712 | DEBUG    | __main__:_main_loop:162 - --- Cycle 159 ---
+2026-03-28 01:13:46.728 | DEBUG    | __main__:_main_loop:162 - --- Cycle 160 ---
+2026-03-28 01:13:51.769 | DEBUG    | __main__:_main_loop:162 - --- Cycle 161 ---
+2026-03-28 01:13:56.783 | DEBUG    | __main__:_main_loop:162 - --- Cycle 162 ---
+2026-03-28 01:14:01.789 | DEBUG    | __main__:_main_loop:162 - --- Cycle 163 ---
+2026-03-28 01:14:06.797 | DEBUG    | __main__:_main_loop:162 - --- Cycle 164 ---
+2026-03-28 01:14:11.816 | DEBUG    | __main__:_main_loop:162 - --- Cycle 165 ---
+2026-03-28 01:14:16.836 | DEBUG    | __main__:_main_loop:162 - --- Cycle 166 ---
+2026-03-28 01:14:21.854 | DEBUG    | __main__:_main_loop:162 - --- Cycle 167 ---
+2026-03-28 01:14:26.862 | DEBUG    | __main__:_main_loop:162 - --- Cycle 168 ---
+2026-03-28 01:14:31.884 | DEBUG    | __main__:_main_loop:162 - --- Cycle 169 ---
+2026-03-28 01:14:31.885 | INFO     | __main__:_fetch_all_historical:385 - Fetching historical data for all assets…
+2026-03-28 01:14:32.213 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1065
+2026-03-28 01:14:32.219 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for BTC (5 mins)
+2026-03-28 01:14:33.043 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1066
+2026-03-28 01:14:33.048 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for ETH (5 mins)
+2026-03-28 01:14:33.880 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1067
+2026-03-28 01:14:33.886 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for LTC (5 mins)
+2026-03-28 01:14:34.730 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1068
+2026-03-28 01:14:34.739 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for BCH (5 mins)
+2026-03-28 01:14:40.263 | DEBUG    | __main__:_main_loop:162 - --- Cycle 170 ---
+2026-03-28 01:14:45.271 | DEBUG    | __main__:_main_loop:162 - --- Cycle 171 ---
+2026-03-28 01:14:50.285 | DEBUG    | __main__:_main_loop:162 - --- Cycle 172 ---
+2026-03-28 01:14:55.297 | DEBUG    | __main__:_main_loop:162 - --- Cycle 173 ---
+2026-03-28 01:15:00.318 | DEBUG    | __main__:_main_loop:162 - --- Cycle 174 ---
+2026-03-28 01:15:05.335 | DEBUG    | __main__:_main_loop:162 - --- Cycle 175 ---
+2026-03-28 01:15:10.351 | DEBUG    | __main__:_main_loop:162 - --- Cycle 176 ---
+2026-03-28 01:15:15.367 | DEBUG    | __main__:_main_loop:162 - --- Cycle 177 ---
+2026-03-28 01:15:20.378 | DEBUG    | __main__:_main_loop:162 - --- Cycle 178 ---
+2026-03-28 01:15:25.388 | DEBUG    | __main__:_main_loop:162 - --- Cycle 179 ---
+2026-03-28 01:15:30.399 | DEBUG    | __main__:_main_loop:162 - --- Cycle 180 ---
+2026-03-28 01:15:35.436 | DEBUG    | __main__:_main_loop:162 - --- Cycle 181 ---
+2026-03-28 01:15:35.436 | INFO     | __main__:_fetch_all_historical:385 - Fetching historical data for all assets…
+2026-03-28 01:15:35.759 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1069
+2026-03-28 01:15:35.764 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for BTC (5 mins)
+2026-03-28 01:15:36.600 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1070
+2026-03-28 01:15:36.605 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for ETH (5 mins)
+2026-03-28 01:15:37.438 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1071
+2026-03-28 01:15:37.443 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for LTC (5 mins)
+2026-03-28 01:15:38.271 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1072
+2026-03-28 01:15:38.276 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for BCH (5 mins)
+2026-03-28 01:15:43.794 | DEBUG    | __main__:_main_loop:162 - --- Cycle 182 ---
+2026-03-28 01:15:48.800 | DEBUG    | __main__:_main_loop:162 - --- Cycle 183 ---
+2026-03-28 01:15:53.819 | DEBUG    | __main__:_main_loop:162 - --- Cycle 184 ---
+2026-03-28 01:15:58.830 | DEBUG    | __main__:_main_loop:162 - --- Cycle 185 ---
+2026-03-28 01:16:03.844 | DEBUG    | __main__:_main_loop:162 - --- Cycle 186 ---
+2026-03-28 01:16:08.852 | DEBUG    | __main__:_main_loop:162 - --- Cycle 187 ---
+2026-03-28 01:16:13.872 | DEBUG    | __main__:_main_loop:162 - --- Cycle 188 ---
+2026-03-28 01:16:18.892 | DEBUG    | __main__:_main_loop:162 - --- Cycle 189 ---
+2026-03-28 01:16:23.902 | DEBUG    | __main__:_main_loop:162 - --- Cycle 190 ---
+2026-03-28 01:16:28.915 | DEBUG    | __main__:_main_loop:162 - --- Cycle 191 ---
+2026-03-28 01:16:33.925 | DEBUG    | __main__:_main_loop:162 - --- Cycle 192 ---
+2026-03-28 01:16:38.941 | DEBUG    | __main__:_main_loop:162 - --- Cycle 193 ---
+2026-03-28 01:16:38.941 | INFO     | __main__:_fetch_all_historical:385 - Fetching historical data for all assets…
+2026-03-28 01:16:39.264 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1073
+2026-03-28 01:16:39.269 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for BTC (5 mins)
+2026-03-28 01:16:40.109 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1074
+2026-03-28 01:16:40.114 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for ETH (5 mins)
+2026-03-28 01:16:40.941 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1075
+2026-03-28 01:16:40.947 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for LTC (5 mins)
+2026-03-28 01:16:41.776 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1076
+2026-03-28 01:16:41.782 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for BCH (5 mins)
+2026-03-28 01:16:47.307 | DEBUG    | __main__:_main_loop:162 - --- Cycle 194 ---
+2026-03-28 01:16:52.323 | DEBUG    | __main__:_main_loop:162 - --- Cycle 195 ---
+2026-03-28 01:16:57.335 | DEBUG    | __main__:_main_loop:162 - --- Cycle 196 ---
+2026-03-28 01:17:02.348 | DEBUG    | __main__:_main_loop:162 - --- Cycle 197 ---
+2026-03-28 01:17:07.363 | DEBUG    | __main__:_main_loop:162 - --- Cycle 198 ---
+2026-03-28 01:17:12.377 | DEBUG    | __main__:_main_loop:162 - --- Cycle 199 ---
+2026-03-28 01:17:17.391 | DEBUG    | __main__:_main_loop:162 - --- Cycle 200 ---
+2026-03-28 01:17:22.432 | DEBUG    | __main__:_main_loop:162 - --- Cycle 201 ---
+2026-03-28 01:17:27.442 | DEBUG    | __main__:_main_loop:162 - --- Cycle 202 ---
+2026-03-28 01:17:32.459 | DEBUG    | __main__:_main_loop:162 - --- Cycle 203 ---
+2026-03-28 01:17:37.467 | DEBUG    | __main__:_main_loop:162 - --- Cycle 204 ---
+2026-03-28 01:17:42.483 | DEBUG    | __main__:_main_loop:162 - --- Cycle 205 ---
+2026-03-28 01:17:42.483 | INFO     | __main__:_fetch_all_historical:385 - Fetching historical data for all assets…
+2026-03-28 01:17:42.807 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1077
+2026-03-28 01:17:42.812 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for BTC (5 mins)
+2026-03-28 01:17:43.650 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1078
+2026-03-28 01:17:43.655 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for ETH (5 mins)
+2026-03-28 01:17:44.486 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1079
+2026-03-28 01:17:44.490 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for LTC (5 mins)
+2026-03-28 01:17:45.321 | DEBUG    | core.broker:historicalDataEnd:76 - Historical data complete for reqId=1080
+2026-03-28 01:17:45.326 | DEBUG    | core.data_feed:fetch_historical:68 - Fetched 576 bars for BCH (5 mins)
+2026-03-28 01:17:50.854 | DEBUG    | __main__:_main_loop:162 - --- Cycle 206 ---
+2026-03-28 01:17:55.870 | DEBUG    | __main__:_main_loop:162 - --- Cycle 207 ---
+2026-03-28 01:18:00.878 | DEBUG    | __main__:_main_loop:162 - --- Cycle 208 ---
+2026-03-28 01:18:05.899 | DEBUG    | __main__:_main_loop:162 - --- Cycle 209 ---
+2026-03-28 01:18:10.911 | DEBUG    | __main__:_main_loop:162 - --- Cycle 210 ---
+2026-03-28 01:18:15.927 | DEBUG    | __main__:_main_loop:162 - --- Cycle 211 ---
+2026-03-28 01:18:20.935 | DEBUG    | __main__:_main_loop:162 - --- Cycle 212 ---
+2026-03-28 01:18:25.947 | DEBUG    | __main__:_main_loop:162 - --- Cycle 213 ---
+2026-03-28 01:18:30.966 | DEBUG    | __main__:_main_loop:162 - --- Cycle 214 ---
+2026-03-28 01:18:35.972 | DEBUG    | __main__:_main_loop:162 - --- Cycle 215 ---
